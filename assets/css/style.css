@@ -824,3 +824,65 @@ section { position: relative; }
 .swipe-hint { margin-left: 14px; font-size: 12px; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: #6e6e73; white-space: nowrap; }
 .swipe-hint i { display: inline-block; font-style: normal; animation: nudge 1.8s var(--ease-in-out) infinite; }
 @keyframes nudge { 0%, 100% { transform: none; } 50% { transform: translateX(5px); } }
+
+/* ---------- language switcher ---------- */
+.lang { display: flex; align-items: center; margin-right: 6px; }
+.lang a { padding: 6px 7px; font-size: 12px; font-weight: 600; letter-spacing: 0.04em; color: var(--ink-3); transition: color 0.2s; }
+.lang a:hover { color: var(--ink); }
+.lang a[aria-current="page"] { color: var(--ink); }
+@media (max-width: 720px) { .lang a { padding: 6px 4px; font-size: 11px; } .nav-mail { display: none; } }
+
+/* wine card text: Georgian name and style label on their own lines */
+.wine-info .row, .wine-info .geo, .wine-info .tag { display: block; }
+.wine-info .row { display: flex; }
+.wine-info .geo { margin-top: 2px; line-height: 1.3; }
+.wine-info .tag { margin-top: 8px; }
+
+/* quotes: stack in one grid cell so the box hugs the text (no blank gap on phones) */
+.quote-list { display: grid; }
+.quote { position: relative; inset: auto; grid-area: 1 / 1; }
+@media (max-width: 900px) {
+  .quote-list { min-height: 0; margin-top: 4px; }
+  .quote { justify-content: flex-start; }
+  .quote-controls { margin-top: 28px; }
+}
+
+/* phones: no tall images */
+@media (max-width: 720px) {
+  .gallery { columns: 2; column-gap: 3px; padding: 0 3px; }
+  .shot { margin-bottom: 3px; }
+  .shot img { aspect-ratio: 1 / 1; object-fit: cover; height: auto; }
+  .shot figcaption { display: none; }
+  .diptych { grid-template-columns: 1fr 1fr; gap: 3px; }
+  .diptych figure { height: auto; aspect-ratio: 3 / 4; }
+  .diptych figcaption { font-size: 11px; padding: 8px 10px; }
+  .tile-portrait { aspect-ratio: 1 / 1; }
+  .city-card { min-height: 380px; }
+}
+
+/* phones: keep the nav on one line */
+.lang a { white-space: nowrap; }
+@media (max-width: 420px) {
+  .brand { letter-spacing: 0.08em; font-size: 14px; }
+  .lang { margin-right: 2px; }
+  .lang a { padding: 6px 3px; font-size: 10.5px; }
+  .nav-ask { padding: 0 6px 0 10px; }
+}
+
+/* city cards: street address on its own line under the venue name */
+.city-card li a { flex-wrap: wrap; row-gap: 0; }
+.city-card li a small { order: 3; flex-basis: 100%; margin: 1px 0 0; line-height: 1.3; }
+
+/* tablets: keep the family portrait from turning into a very tall image */
+@media (min-width: 721px) and (max-width: 900px) {
+  .tile-portrait { aspect-ratio: 4 / 3; }
+}
+
+.nav-links a { white-space: nowrap; }
+
+/* nav: fold the section links away before they collide (labels differ in length per language) */
+@media (max-width: 1040px) { .nav-links { display: none; } }
+@media (max-width: 1250px) { html[lang="ka"] .nav-links { display: none; } }
+@media (max-width: 1190px) { html[lang="es"] .nav-links { display: none; } }
+@media (max-width: 1160px) { html[lang="ja"] .nav-links { display: none; } }
+@media (max-width: 1140px) { html[lang="fr"] .nav-links { display: none; } }

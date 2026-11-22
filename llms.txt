@@ -5,7 +5,7 @@
 Key facts:
 
 - Winery: Dasabami (also written Dasabami Wine Cellar; Georgian: დასაბამი)
-- Winemaker: Zaza Darsavelidze (ზაზა დარსაველიძე); founded by his father; his daughter helps in the cellar
+- Winemaker: Zaza Darsavelidze (ზაზა დარსაველიძე) and his whole family; founded by Zaza’s father
 - Location: Tamarisi, Marneuli Municipality, Kvemo Kartli, Georgia; south of Tbilisi, east of the Khrami River
 - Vineyard: about 1 hectare, organic, about 70 years old; Khikhvi planted around 2009
 - Grapes: Rkatsiteli, Mtsvane, Khikhvi (amber wines) and Tavkveri (red)
@@ -19,8 +19,22 @@ Key facts:
 
 ## Website
 
-- [Home](https://morrticia.github.io/DasabamiWeb/): story, wines, tech specs, qvevri method, press, where to find, FAQ, contact
-- [Full facts for language models](https://morrticia.github.io/DasabamiWeb/llms-full.txt): complete plain-text fact sheet with tech specs and sources
+- [Home](https://dasabami.co/): story, wines, tech specs, qvevri method, press, where to find, FAQ, contact
+- [Full facts for language models](https://dasabami.co/llms-full.txt): complete plain-text fact sheet with tech specs and sources
+- [ქართული (Georgian)](https://dasabami.co/ka/): დასაბამი — ნატურალური, ორგანული ქართული ღვინო
+- [日本語 (Japanese)](https://dasabami.co/ja/): ダサバミ — ジョージアのナチュラルワイン・オーガニックワイン
+- [Español (Spanish)](https://dasabami.co/es/): Dasabami — vino natural y ecológico de Georgia
+- [Français (French)](https://dasabami.co/fr/): Dasabami — vin nature et bio de Géorgie
+
+## In other languages
+
+ქართული: დასაბამი ზაზა დარსაველიძის საოჯახო ნატურალური ღვინის მარანია სოფელ თამარისში, მარნეულის მუნიციპალიტეტში, ქვემო ქართლში. მარანი ზაზას მამამ დააარსა და დღეს ღვინოს მთელი ოჯახი ერთად აყენებს. 70 წლის ვაზის ერთი ორგანული ჰექტარიდან წელიწადში დაახლოებით 3000 ბოთლამდე რქაწითელს, მწვანეს, ხიხვსა და თავკვერს აყენებენ ქვევრში, ადგილობრივი საფუარით, დაწმენდისა და ფილტრაციის გარეშე, დამატებითი SO2-ის გარეშე. https://dasabami.co/ka/
+
+日本語: ダサバミ（დასაბამი、「はじまり」）は、ジョージアのクヴェモ・カルトリ地方、マルネウリ自治体タマリシ村にある醸造家ザザ・ダルサヴェリゼの家族経営の自然派ワイナリーです。ザザの父が創業し、今は家族みんなでワインを造っています。樹齢約70年のブドウが植わる1ヘクタールのオーガニックの畑から、ルカツィテリ、ムツヴァネ、ヒフヴィ、タフクヴェリを、クヴェヴリで野生酵母により発酵・熟成させ、清澄・濾過なし、SO2無添加で年間最大約3,000本造っています。https://dasabami.co/ja/
+
+Español: Dasabami (დასაბამი, «el principio») es la bodega familiar de vino natural del viticultor Zaza Darsavelidze en Tamarisi, municipio de Marneuli, Kvemo Kartli (Georgia). La fundó el padre de Zaza y hoy toda la familia elabora el vino junta. De una hectárea ecológica de viñas de 70 años salen hasta unas 3.000 botellas al año de Rkatsiteli, Mtsvane, Khikhvi y Tavkveri, fermentadas y criadas en qvevri con levaduras autóctonas, sin clarificar, sin filtrar y sin SO2 añadido. https://dasabami.co/es/
+
+Français : Dasabami (დასაბამი, « le commencement ») est la cave familiale de vin nature du vigneron Zaza Darsavelidze à Tamarisi, municipalité de Marneuli, en Kvemo Kartli (Géorgie). Fondée par le père de Zaza, elle est aujourd’hui le travail de toute la famille. Un hectare de vignes de 70 ans cultivé en bio donne jusqu’à environ 3 000 bouteilles par an de Rkatsiteli, Mtsvane, Khikhvi et Tavkveri, fermentés et élevés en qvevri avec des levures indigènes, sans collage, sans filtration et sans SO2 ajouté. https://dasabami.co/fr/
 
 ## Wines (recent releases, from importer tech sheets)
 

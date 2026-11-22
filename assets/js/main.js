@@ -6,6 +6,9 @@
   const $$ = (s, r = document) => [...r.querySelectorAll(s)];
   const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
   const reduce = matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const T = window.DASABAMI_I18N || {};
+  const BASE = T.base || '';
+  const tx = (group, key, fallback) => (T[group] && T[group][key]) || fallback;
   const easeInOut = t => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);
 
   /* ------------------------------------------------------------------
@@ -242,14 +245,14 @@
   let lastFocus = null;
   function openWine(id) {
     const w = WINES[id]; if (!w) return;
-    $('#sheet-img').src = `assets/img/${w.img}-lg.webp`;
+    $('#sheet-img').src = `${BASE}assets/img/${w.img}-lg.webp`;
     $('#sheet-img').alt = `Dasabami ${w.name} ${w.vintage}`;
-    $('#sheet-style').textContent = w.style;
-    $('#sheet-title').textContent = `${w.name} ${w.vintage}`;
-    $('#sheet-geo').textContent = w.geo;
-    $('#sheet-text').textContent = w.text;
-    $('#sheet-facts').innerHTML = Object.entries(w.facts).map(([k, v]) => `<dt>${k}</dt><dd>${v}</dd>`).join('');
-    $('#sheet-ask').onclick = () => { closeSheet(); openGuide(`Tell me about ${w.name}`); };
+    $('#sheet-style').textContent = tx('styles', w.style, w.style);
+    $('#sheet-title').textContent = `${tx('grapes', w.name, w.name)} ${w.vintage}`;
+    $('#sheet-geo').textContent = tx('geo', w.name, w.geo);
+    $('#sheet-text').textContent = tx('wines', id, w.text);
+    $('#sheet-facts').innerHTML = Object.entries(w.facts).map(([k, v]) => `<dt>${tx('labels', k, k)}</dt><dd>${tx('values', v, v)}</dd>`).join('');
+    $('#sheet-ask').onclick = () => { closeSheet(); openGuide(tellMe(w)); };
     $('#sheet-mail').href = `mailto:${EMAIL}?subject=${encodeURIComponent(`Dasabami ${w.name} ${w.vintage}`)}`;
     lastFocus = document.activeElement;
     sheet.classList.add('is-open'); sheet.setAttribute('aria-hidden', 'false');
@@ -347,7 +350,7 @@
     const cd = $('#countdown');
     if (ms <= 0) {
       const ended = ms < -12 * 3600e3;
-      $('#event-badge').textContent = ended ? 'Recently' : 'Today';
+      $('#event-badge').textContent = ended ? tx('badge', 'recently', 'Recently') : tx('badge', 'today', 'Today');
       if (cd) cd.style.display = 'none';
       return;
     }
@@ -373,11 +376,11 @@
     if (np > 0.985 && !going && userScrolled && performance.now() - loadedAt > 1500) {
       going = true;
       nextSite.classList.add('is-going');
-      $('#next-hint').textContent = `Opening ${nextSite.dataset.nextName}…`;
+      $('#next-hint').textContent = (T.opening || 'Opening {name}…').replace('{name}', nextSite.dataset.nextName);
       setTimeout(() => {
         const stillThere = nextSite.getBoundingClientRect().bottom <= innerHeight + 4;
         if (stillThere) location.href = nextSite.dataset.nextUrl;
-        else { going = false; nextSite.classList.remove('is-going'); $('#next-hint').textContent = 'Keep scrolling'; }
+        else { going = false; nextSite.classList.remove('is-going'); $('#next-hint').textContent = T.keepScrolling || 'Keep scrolling'; }
       }, 700);
     }
   }
@@ -405,7 +408,7 @@
   }
   const copyBtn = $('#copy-email');
   if (copyBtn) copyBtn.addEventListener('click', async () => {
-    try { await navigator.clipboard.writeText(EMAIL); toast('Copied ' + EMAIL); }
+    try { await navigator.clipboard.writeText(EMAIL); toast((T.copied || 'Copied') + ' ' + EMAIL); }
     catch (_) { toast(EMAIL); }
   });
 
@@ -456,7 +459,7 @@
       act: [{ label: 'Showing step 4: Bottled as it is', run: go('.step:last-child', { offset: 200 }) }],
       next: ['How is qvevri wine made?', 'Who is the winemaker?'] },
     { id: 'zaza', re: /zaza|winemaker|who|family|darsavelidze|story|history|founder|father/i,
-      say: () => `<p><b>Zaza Darsavelidze</b> runs Dasabami, the family cellar his father founded in Tamarisi. He first bottled the wine in 2012, and his daughter now helps in the cellar. You can write to him at <a href="mailto:zazabery@gmail.com">zazabery@gmail.com</a>.</p>`,
+      say: () => `<p><b>Zaza Darsavelidze</b> runs Dasabami, the family cellar his father founded in Tamarisi. The whole family makes the wine together, and Zaza first bottled it in 2012. You can write to him at <a href="mailto:zazabery@gmail.com">zazabery@gmail.com</a>.</p>`,
       act: [{ label: 'Opening the family story', run: go('#story', { offset: 100 }) }],
       next: ['Where is the vineyard?', 'What do critics say?'] },
     { id: 'where', re: /where.*(vineyard|located|from)|location|tamarisi|kartli|region|map|village/i,
@@ -488,16 +491,37 @@
 
   const WINE_INTENT = { re: /tell me about (\w+)|about (rkatsiteli|mtsvane|khikhvi|tavkveri)/i };
 
+  // "Tell me about X" in the page language (T.tellMe has a {name} placeholder; T.grapes localizes X)
+  function tellMe(w) {
+    return T.tellMe ? T.tellMe.replace('{name}', tx('grapes', w.name, w.name)) : `Tell me about ${w.name}`;
+  }
+
   function findIntent(q) {
     const m = q.match(WINE_INTENT.re);
+    let id = null;
     if (m) {
       const grape = (m[1] || m[2] || '').toLowerCase();
-      const id = Object.keys(WINES).find(k => k.startsWith(grape));
-      if (id) {
-        const w = WINES[id];
-        return { say: () => `<p><b>${w.name}</b> (${w.geo}) · ${w.style}. ${w.text}</p>`,
-          act: [{ label: `Opening ${w.name} ${w.vintage}`, run: () => go('#wines', { offset: 100 })().then(() => { const c = $(`.wine[data-wine="${id}"]`); if (c) { setFilter('all'); c.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' }); c.classList.remove('is-flash'); void c.offsetWidth; c.classList.add('is-flash'); } }) }],
-          next: ['Which is the rarest?', 'Where can I buy it?'] };
+      id = Object.keys(WINES).find(k => k.startsWith(grape)) || null;
+    }
+    if (!id && T.tellMe) id = Object.keys(WINES).find(k => q === tellMe(WINES[k])) || null;
+    if (id) {
+      const w = WINES[id];
+      return { say: () => `<p><b>${tx('grapes', w.name, w.name)}</b> (${tx('geo', w.name, w.geo)}) · ${tx('styles', w.style, w.style)}</p><p>${tx('wines', id, w.text)}</p>`,
+        act: [{ label: T.goingThere || `Opening ${w.name} ${w.vintage}`, run: () => go('#wines', { offset: 100 })().then(() => { const c = $(`.wine[data-wine="${id}"]`); if (c) { setFilter('all'); c.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' }); c.classList.remove('is-flash'); void c.offsetWidth; c.classList.add('is-flash'); } }) }],
+        next: T.suggestions || ['Which is the rarest?', 'Where can I buy it?'] };
+    }
+    if (T.intents) {
+      const lq = q.toLowerCase();
+      for (const [id, def] of Object.entries(T.intents)) {
+        if ((def.kw || []).some(k => lq.includes(k.toLowerCase()))) {
+          const base = INTENTS.find(i => i.id === id);
+          const answer = def.answer || (T.faq && T.faq[def.faq]) || '';
+          return {
+            say: () => `<p>${answer}</p>`,
+            act: base && base.act ? base.act.map(a => ({ label: T.goingThere || a.label, run: a.run })) : [],
+            next: T.suggestions || []
+          };
+        }
       }
     }
     return INTENTS.find(i => i.re.test(q)) || null;
@@ -550,8 +574,8 @@
     await wait(550 + Math.random() * 350);
     const intent = findIntent(q);
     if (!intent) {
-      await typeInto(body, `<p>I can help with the wines, how they’re made, the family, where to buy, and upcoming events. Try one of these:</p>`);
-      setSuggest(['Show me the amber wines', 'How is qvevri wine made?', 'Where can I buy it?', 'Who is the winemaker?']);
+      await typeInto(body, `<p>${T.fallback || 'I can help with the wines, how they’re made, the family, where to buy, and upcoming events. Try one of these:'}</p>`);
+      setSuggest(T.suggestions || ['Show me the amber wines', 'How is qvevri wine made?', 'Where can I buy it?', 'Who is the winemaker?']);
       busy = false; return;
     }
     await typeInto(body, intent.say());
@@ -575,8 +599,8 @@
     if (!greeted) {
       greeted = true;
       const b = addMsg('bot', '');
-      typeInto($('.body', b), `<p>Gamarjoba! I’m the Dasabami cellar guide. Ask me about the wines, the qvevri, the family, or where to find a bottle, and I’ll take you to the right part of the page.</p>`)
-        .then(() => { if (!prefill) setSuggest(['Show me the amber wines', 'How is qvevri wine made?', 'Where can I buy it?', 'How do I contact Zaza?']); });
+      typeInto($('.body', b), `<p>${T.greeting || 'Gamarjoba! I’m the Dasabami cellar guide. Ask me about the wines, the qvevri, the family, or where to find a bottle, and I’ll take you to the right part of the page.'}</p>`)
+        .then(() => { if (!prefill) setSuggest(T.suggestions || ['Show me the amber wines', 'How is qvevri wine made?', 'Where can I buy it?', 'How do I contact Zaza?']); });
     }
     setTimeout(() => input.focus({ preventScroll: true }), 120);
     if (prefill) setTimeout(() => ask(prefill), greeted ? 200 : 1600);

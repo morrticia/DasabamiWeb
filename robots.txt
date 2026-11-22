@@ -26,4 +26,4 @@ User-agent: YouBot
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://morrticia.github.io/DasabamiWeb/sitemap.xml
+Sitemap: https://dasabami.co/sitemap.xml
