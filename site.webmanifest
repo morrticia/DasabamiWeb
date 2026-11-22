@@ -1,0 +1,15 @@
+{
+  "name": "Dasabami — Organic Qvevri Wine",
+  "short_name": "Dasabami",
+  "description": "Family qvevri wine from Tamarisi, Kvemo Kartli, Georgia.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a0a0b",
+  "theme_color": "#0a0a0b",
+  "icons": [
+    { "src": "assets/brand/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "assets/brand/icon-512.png", "sizes": "512x512", "type": "image/png" },
+    { "src": "assets/brand/favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

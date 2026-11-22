@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://morrticia.github.io/DasabamiWeb/</loc>
+    <lastmod>2026-11-22</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/hero-zaza-lg.webp</image:loc><image:title>Winemaker Zaza Darsavelidze in the Dasabami vineyard, Tamarisi, Georgia</image:title></image:image>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/old-vine-lg.webp</image:loc><image:title>A 70-year-old vine in the Dasabami vineyard</image:title></image:image>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/zaza-cat-lg.webp</image:loc><image:title>Zaza Darsavelidze on the vine pergola</image:title></image:image>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/red-grapes-lg.webp</image:loc><image:title>Red grapes on an old vine before harvest, Kvemo Kartli</image:title></image:image>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/rkatsiteli-2019-lg.webp</image:loc><image:title>Dasabami Rkatsiteli 2019 amber qvevri wine</image:title></image:image>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/tavkveri-2019-lg.webp</image:loc><image:title>Dasabami Tavkveri 2019 red qvevri wine</image:title></image:image>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/mtsvane-2017-lg.webp</image:loc><image:title>Dasabami Mtsvane 2017 amber wine</image:title></image:image>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/khikhvi-2018-lg.webp</image:loc><image:title>Dasabami Khikhvi 2018 amber wine</image:title></image:image>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/tavkveri-2017-lg.webp</image:loc><image:title>Dasabami Tavkveri 2017 dry red wine</image:title></image:image>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/vineyard-sun-lg.webp</image:loc><image:title>The Dasabami vineyard in Lower Kartli</image:title></image:image>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/winter-pruning-lg.webp</image:loc><image:title>Pruning old vines by hand in winter, Tamarisi</image:title></image:image>
+    <image:image><image:loc>https://morrticia.github.io/DasabamiWeb/assets/img/zaza-cellar-lg.webp</image:loc><image:title>Zaza Darsavelidze pouring Dasabami in Tbilisi</image:title></image:image>
+  </url>
+</urlset>

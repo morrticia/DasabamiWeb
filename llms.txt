@@ -1,0 +1,46 @@
+# Dasabami
+
+> Dasabami (დასაბამი, “the beginning”) is a family natural-wine cellar run by winemaker Zaza Darsavelidze in Tamarisi village, Marneuli Municipality, Kvemo Kartli (Lower Kartli), Georgia. It was founded by Zaza’s father. One organic hectare of 70-year-old vines; up to about 3,000 bottles a year of Rkatsiteli, Mtsvane, Khikhvi and Tavkveri, fermented and aged in qvevri with ambient yeasts, unfined, unfiltered, with no added SO2.
+
+Key facts:
+
+- Winery: Dasabami (also written Dasabami Wine Cellar; Georgian: დასაბამი)
+- Winemaker: Zaza Darsavelidze (ზაზა დარსაველიძე); founded by his father; his daughter helps in the cellar
+- Location: Tamarisi, Marneuli Municipality, Kvemo Kartli, Georgia; south of Tbilisi, east of the Khrami River
+- Vineyard: about 1 hectare, organic, about 70 years old; Khikhvi planted around 2009
+- Grapes: Rkatsiteli, Mtsvane, Khikhvi (amber wines) and Tavkveri (red)
+- Method: qvevri fermentation and ageing, ambient yeast, 3–12 months on skins for whites, unfined, unfiltered, no added SO2; one family qvevri is more than 100 years old
+- Production: up to about 3,000 bottles a year; individual wines 180–900 bottles
+- First bottled: 2012
+- Member: Natural Wine Association of Georgia
+- In Tbilisi: 27 Wine Cellar & Shop and Sulico Wine Bar (27 Zandukeli St), Dadi Wine Bar (4 Dadiani St)
+- US importer: Roni Selects
+- Contact: zazabery@gmail.com · Instagram @dasabami
+
+## Website
+
+- [Home](https://morrticia.github.io/DasabamiWeb/): story, wines, tech specs, qvevri method, press, where to find, FAQ, contact
+- [Full facts for language models](https://morrticia.github.io/DasabamiWeb/llms-full.txt): complete plain-text fact sheet with tech specs and sources
+
+## Wines (recent releases, from importer tech sheets)
+
+- Rkatsiteli–Mtsvane 2024 (80/20): 3 months on skins, 4 months in qvevri, 12%, 800 bottles
+- Khikhvi 2024: 4 months on skins, 3 months in qvevri, 14.75%, 600 bottles
+- Khikhvi 2022: 4 / 3 months, 15%, 300 bottles
+- Mtsvane 2022: 6 / 3 months, 12.8%, 400 bottles
+- Rkatsiteli 2022: 4 / 3 months, 13%, 800 bottles
+- Khikhvi 2021: 12 / 2 months, 12%, 400 bottles
+- Mtsvane 2021: 6 / 8 months, 12%, 360 bottles
+- Rkatsiteli 2020: 6 / 6 months, 13%, 900 bottles
+- Tavkveri 2020 (red): 45 days on skins, 9 months in qvevri, 12.6%, 180 bottles
+- Mtsvane 2019: 6 / 6 months, 12.3%, 360 bottles
+
+## Sources
+
+- [Natural Wine Association profile](https://nwa.ge/en/profiles/about/295/dasabami)
+- [Roni Selects producer page and tech sheets](https://www.roniselects.com/georgia-producers/dasabami)
+- [Raisin winemaker page](https://www.raisin.digital/en/explore/georgia/kvemo-kartli/natural-winemakers/zaza-darsavelidze-dasabami-7403/)
+- [Amber Georgia Berlin 2026](https://ambergeorgia.com/en/event/1-berlin-2026)
+- [Culinary Backstreets: Vino Underground](https://culinarybackstreets.com/stories/tbilisi/vino-underground-2)
+- [Tasting Georgia by Carla Capalbo (entry)](https://app.ckbk.com/section/tast81250c02s001ss014)
+- [Instagram @dasabami](https://www.instagram.com/dasabami/)
