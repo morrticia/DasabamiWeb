@@ -385,6 +385,13 @@
     }
   }
 
+  /* lang dropdown: close on outside click or Escape */
+  const langEl = $('#lang');
+  if (langEl) {
+    document.addEventListener('click', e => { if (langEl.open && !langEl.contains(e.target)) langEl.open = false; });
+    addEventListener('keydown', e => { if (e.key === 'Escape' && langEl.open) { langEl.open = false; langEl.querySelector('summary').focus(); } });
+  }
+
   /* ------------------------------------------------------------------
      Scroll loop
      ------------------------------------------------------------------ */

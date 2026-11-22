@@ -324,6 +324,7 @@ def build():
         out = replace_block(out, "SEO", seo_head(lang, T))
         out = replace_block(out, "JSONLD", jsonld(lang, T))
         out = replace_block(out, "I18N", i18n_blob(lang, T))
+        out = out.replace('<span class="lang-current">EN</span>', f'<span class="lang-current">{lang.upper()}</span>', 1)
         missing = [s for s in json.load(open(os.path.join(ROOT, "i18n", "_strings.en.json"), encoding="utf-8")) if s not in T["strings"]]
         os.makedirs(os.path.join(ROOT, lang), exist_ok=True)
         dest = os.path.join(ROOT, lang, "index.html")

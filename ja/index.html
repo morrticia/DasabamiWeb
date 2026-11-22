@@ -57,7 +57,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="../assets/img/vineyard-sun-lg.webp" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/style.css?v=2026112203">
+  <link rel="stylesheet" href="../assets/css/style.css?v=2026112204">
 
   <!-- JSONLD:START -->
   <script type="application/ld+json">
@@ -1125,9 +1125,16 @@
     </ul>
   </nav>
   <div class="nav-actions">
-    <nav class="lang" aria-label="言語">
-      <a href="../" hreflang="en" lang="en" data-lang="en">EN</a><a href="../ka/" hreflang="ka" lang="ka" data-lang="ka">ქარ</a><a href="../ja/" hreflang="ja" lang="ja" data-lang="ja" aria-current="page">日本</a><a href="../es/" hreflang="es" lang="es" data-lang="es">ES</a><a href="../fr/" hreflang="fr" lang="fr" data-lang="fr">FR</a>
-    </nav>
+    <details class="lang" id="lang">
+      <summary aria-label="言語"><svg class="globe" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"></svg><span class="lang-current">JA</span><svg class="chev" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></svg></summary>
+      <ul class="lang-menu">
+        <li><a href="../" hreflang="en" lang="en" data-lang="en">English</a></li>
+        <li><a href="../ka/" hreflang="ka" lang="ka" data-lang="ka">ქართული</a></li>
+        <li><a href="../ja/" hreflang="ja" lang="ja" data-lang="ja" aria-current="page">日本語</a></li>
+        <li><a href="../es/" hreflang="es" lang="es" data-lang="es">Español</a></li>
+        <li><a href="../fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li>
+      </ul>
+    </details>
     <a class="btn btn-primary nav-mail" href="mailto:zazabery@gmail.com?subject=Dasabami%20wine" data-mail>メール</a>
     <button class="btn btn-glass nav-ask" data-open-guide aria-label="セラーガイドに質問する">質問 <span class="orb" aria-hidden="true"></span></button>
   </div>
@@ -1638,7 +1645,7 @@
           <span class="listing-shop">MORE Natural Wine</span>
           <span class="listing-loc">ベルリン · EU・英国へ発送</span>
           <span class="listing-wine">ヒフヴィ 2019</span>
-          <span class="listing-meta"><span class="price">€27 · £20</span><span class="status">売り切れ</span></span>
+          <span class="listing-meta"><span class="status">売り切れ</span></span>
         </span>
       </a>
       <a class="listing" href="https://www.hopburnsblack.co.uk/products/dasabamirkatsiteliorange201612750ml" target="_blank" rel="noopener" data-reveal>
@@ -1647,7 +1654,7 @@
           <span class="listing-shop">Hop Burns &amp; Black</span>
           <span class="listing-loc">ロンドン（英国）</span>
           <span class="listing-wine">ルカツィテリ 2016</span>
-          <span class="listing-meta"><span class="price">£29.95</span><span class="status">売り切れ</span></span>
+          <span class="listing-meta"><span class="status">売り切れ</span></span>
         </span>
       </a>
       <a class="listing" href="https://thecellardor.com/dasabami-rkatsiteli-2022-750ml/" target="_blank" rel="noopener" data-reveal>
@@ -1656,7 +1663,7 @@
           <span class="listing-shop">The Cellar d’Or</span>
           <span class="listing-loc">ニューヨーク州イサカ</span>
           <span class="listing-wine">ルカツィテリ 2022・2020</span>
-          <span class="listing-meta"><span class="price">$19.99 · $25.99</span><span class="status">売り切れ</span></span>
+          <span class="listing-meta"><span class="status">売り切れ</span></span>
         </span>
       </a>
       <a class="listing" href="https://www.grandwinecellar.com/products/dasabami-rkatsiteli" target="_blank" rel="noopener" data-reveal>
@@ -1665,7 +1672,7 @@
           <span class="listing-shop">Grand Wine Cellar</span>
           <span class="listing-loc">ニューヨーク州サイオセット</span>
           <span class="listing-wine">ルカツィテリ · 12本ケース</span>
-          <span class="listing-meta"><span class="price">$288 / ケース</span><span class="status">売り切れ</span></span>
+          <span class="listing-meta"><span class="status">売り切れ</span></span>
         </span>
       </a>
       <a class="listing" href="https://sf.flatiron-wines.com/collections/dasabami" target="_blank" rel="noopener" data-reveal>
@@ -1889,6 +1896,6 @@
 <!-- I18N:START -->
 <script>window.DASABAMI_I18N = {"greeting": "ガマルジョバ！ダサバミのセラーガイドです。ワインやクヴェヴリ、家族のこと、ボトルの入手先などをお気軽にどうぞ。ページの該当箇所へご案内します。", "fallback": "ワイン、造り方、家族、購入先、今後のイベントについてお答えできます。こちらから選んでみてください：", "suggestions": ["アンバーワインを見せて", "クヴェヴリワインはどう造るの？", "どこで買えますか？", "造り手は誰ですか？"], "goingThere": "ご案内します…", "copied": "コピーしました", "keepScrolling": "そのままスクロール", "opening": "{name}を開いています…", "badge": {"today": "本日", "recently": "先日開催"}, "styles": {"Amber wine": "アンバーワイン", "Red wine": "赤ワイン", "Blend": "ブレンド"}, "labels": {"Grape": "品種", "Grapes": "品種", "Vessel": "醸造容器", "Vines": "樹齢", "Label": "ラベル", "Style": "スタイル", "Poured at": "提供店"}, "values": {"Qvevri": "クヴェヴリ", "About 70 years old": "約70年", "Painted art label": "絵画をあしらったアートラベル", "Skin contact": "スキンコンタクト", "Amber white": "白ブドウのアンバー", "Dry red": "辛口の赤", "Proper Natural Wine, London": "Proper Natural Wine（ロンドン）", "Various": "複数品種", "Rkatsiteli": "ルカツィテリ", "Mtsvane": "ムツヴァネ", "Khikhvi": "ヒフヴィ", "Tavkveri": "タフクヴェリ"}, "wines": {"rkatsiteli-2019": "ジョージアを代表する白ブドウ。クヴェヴリで果皮とともに発酵させ、琥珀色になるまで醸します。樹齢約70年の家族の畑から。", "khikhvi-2018": "カヘティ地方の希少な白ブドウ。ここでは2009年頃に植えた若い樹で育てています。ハンブルクのSkin Contactは2018年を、エネルギッシュで生き生きとした、深みのあるワインに分類しました。", "tavkveri-2019": "カルトリ地方の土着の黒ブドウ。短い果皮浸漬のあと、クヴェヴリで数か月休ませます。近年のヴィンテージは200本ほどしか造られていません。", "mtsvane-2017": "ムツヴァネのアンバーワイン。クヴェヴリで果皮とともに発酵させます。近年のヴィンテージは約6か月を果皮とともに過ごします。", "tavkveri-2017": "クヴェヴリで果皮とともに発酵させた辛口の赤ワイン。", "rkatsiteli-2016": "ロンドンまで渡ったアンバーのルカツィテリ。Proper Natural Wineで提供されました。", "tavkveri-2018": "2018年収穫のタフクヴェリ。クヴェヴリで発酵させました。", "field-blend": "家族の1ヘクタールの畑のブドウをブレンド。現行のブレンドなら、ルカツィテリ–ムツヴァネ（80/20）をお探しください。"}, "tellMe": "{name}について教えて", "grapes": {"Rkatsiteli": "ルカツィテリ", "Mtsvane": "ムツヴァネ", "Khikhvi": "ヒフヴィ", "Tavkveri": "タフクヴェリ", "Field Blend": "フィールドブレンド"}, "intents": {"contact": {"kw": ["連絡", "問い合わせ", "問合せ", "メール", "mail", "電話", "メッセージ", "gmail", "コンタクト"], "faq": 9}, "event": {"kw": ["イベント", "ベルリン", "berlin", "amber georgia", "アンバー・ジョージア", "アンバージョージア", "フェア", "試飲会", "フェス", "次の予定"], "answer": "ダサバミは2026年11月28日、ベルリンで開かれる Amber Georgia に出展し、ワインを注ぎます。"}, "buy": {"kw": ["どこで買えますか？", "買", "購入", "販売", "ショップ", "店", "注文", "価格", "値段", "輸入", "アメリカ", "米国", "ロンドン", "トビリシ", "取扱", "取り扱", "手に入", "在庫"], "faq": 7}, "visit": {"kw": ["訪問", "見学", "訪ね", "訪れ", "ツアー", "旅行", "行きたい"], "answer": "ダサバミはトビリシの南、タマリシ村にある小さな家族経営のワイナリーです。訪問をご希望の場合は、事前に zazabery@gmail.com または Instagram の @dasabami までご連絡ください。"}, "where": {"kw": ["どこにあ", "場所", "所在地", "位置", "タマリシ", "カルトリ", "地域", "地図", "村", "産地"], "faq": 2}, "rare": {"kw": ["希少", "レア", "珍しい", "限定", "何本", "生産量", "本数"], "faq": 6}, "red": {"kw": ["赤", "タフクヴェリ", "サペラヴィ"], "faq": 3}, "amber": {"kw": ["アンバーワインを見せて", "アンバー", "オレンジ", "琥珀", "スキンコンタクト", "白ワイン", "白ブドウ", "ルカツィテリ", "ムツヴァネ", "ヒフヴィ", "マセレーション"], "faq": 3}, "qvevri": {"kw": ["クヴェヴリワインはどう造るの？", "クヴェヴリ", "クベブリ", "qvevri", "kvevri", "甕", "粘土", "造り方", "どう造", "どうやって造", "どのように造", "製法", "醸造方法", "発酵", "工程"], "faq": 4}, "organic": {"kw": ["オーガニック", "有機", "自然派", "ナチュラル", "亜硫酸", "酸化防止剤", "so2", "so₂", "添加", "ヴィーガン", "ビーガン", "濾過", "ろ過", "ビオ"], "faq": 5}, "press": {"kw": ["評価", "評判", "レビュー", "口コミ", "メディア", "雑誌", "記事", "書籍", "ヴィヴィーノ", "vivino", "カパルボ", "プレス", "批評"], "answer": "ダサバミは、カーラ・カパルボの著書『Tasting Georgia』や Culinary Backstreets で紹介されています。アメリカの輸入元 Roni Selects は、ザザをジョージアのナチュラルワイン運動の創始者のひとりに数えています。Vivino では222件の評価で平均3.8、最も高く評価されているのはヒフヴィです。"}, "pair": {"kw": ["ペアリング", "料理", "合わせ", "食事", "チーズ", "食べ", "マリアージュ"], "answer": "クヴェヴリワインの一般的な目安として、ルカツィテリやヒフヴィのようなアンバーワインはしっかりした渋みと質感があり、クルミを使った料理、ハチャプリ、焼き野菜といったジョージア料理や熟成チーズによく合います。あるレビュアーは2010年のルカツィテリをチーズとの相性が抜群だと評しました。タフクヴェリは軽やかで、グリルした肉やきのこに合います。"}, "zaza": {"kw": ["造り手は誰ですか？", "造り手", "ザザ", "誰", "家族", "ダルサヴェリゼ", "歴史", "父", "創業", "醸造家", "生産者"], "faq": 1}, "about": {"kw": ["ダサバミとは", "どんなワイナリー", "ダサバミについて"], "faq": 0}, "name": {"kw": ["意味", "名前", "由来", "დასაბამი"], "faq": 8}, "wines": {"kw": ["ワイン", "ボトル", "品種", "ラインナップ", "種類", "ブドウ"], "faq": 3}}, "lang": "ja", "base": "../", "faq": ["ダサバミ（დასაბამი、「はじまり」の意）は、ジョージアのクヴェモ・カルトリ地方、マルネウリ自治体のタマリシ村にある家族経営の自然派ワイナリーです。醸造家ザザ・ダルサヴェリゼの父が創業し、わずか1ヘクタールの畑から、自然派・オーガニックのクヴェヴリワインを年間最大約3,000本造っています。", "ザザ・ダルサヴェリゼと家族みんなです。ザザは下カルトリ（クヴェモ・カルトリ）でワインを造ってきた家系の3代目で、2012年に初めて家族のワインを瓶詰めしました。", "ジョージアのクヴェモ・カルトリ（下カルトリ）地方、マルネウリ自治体のタマリシ村にあります。トビリシの南、フラミ川の東側です。畑の広さは約1ヘクタール、樹齢は約70年です。", "ジョージア固有の4品種です。アンバーワインになるルカツィテリ、ムツヴァネ、ヒフヴィと、赤のタフクヴェリ。古樹は樹齢約70年で、ヒフヴィは2009年頃に植えられました。", "地中に埋めた粘土の甕、クヴェヴリで造ります。ブドウは野生酵母で発酵し、白ブドウは3〜12か月果皮とともに漬け込まれて琥珀色になります。清澄も濾過もせず、SO₂無添加で瓶詰めします。家族のクヴェヴリのひとつは100年以上前のものです。", "はい。ダサバミはジョージアのナチュラルワインです。畑はオーガニックで栽培され、輸入元のテクニカルシートには亜硫酸無添加、野生酵母、清澄・濾過なしと記載されています。そしてダサバミはジョージアの Natural Wine Association（ナチュラルワイン協会）の会員です。", "全体で年間最大約3,000本です。各ワインは少量生産で、180本（タフクヴェリ 2020）から900本（ルカツィテリ 2020）までです。", "トビリシでは、27 Wine Cellar & Shop と Sulico Wine Bar (ザンドゥケリ通り27番地)、 Dadi Wine Bar (自由広場近く、ダディアニ通り4番地) で扱っています。アメリカでは輸入元の Roni Selects を通じて購入できます。これまでに MORE Natural Wine (ベルリン)、Hop Burns & Black (ロンドン)、The Cellar d’Or と Grand Wine Cellar (ニューヨーク) などのオンラインショップで販売されましたが、2026年11月22日時点ではすべて売り切れでした。最新の在庫については、 zazabery@gmail.com へメールするか、Instagram の @dasabami までメッセージをお送りください。", "ダサバミ（დასაბამი）は、ジョージア語で「はじまり」「起源」を意味します。", "ザザ・ダルサヴェリゼへのメールは zazabery@gmail.com まで。または、Instagram の @dasabami までメッセージをお送りください。"]};</script>
   <!-- I18N:END -->
-<script src="../assets/js/main.js?v=2026112203" defer></script>
+<script src="../assets/js/main.js?v=2026112204" defer></script>
 </body>
 </html>

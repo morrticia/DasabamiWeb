@@ -57,7 +57,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="../assets/img/vineyard-sun-lg.webp" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/style.css?v=2026112203">
+  <link rel="stylesheet" href="../assets/css/style.css?v=2026112204">
 
   <!-- JSONLD:START -->
   <script type="application/ld+json">
@@ -1125,9 +1125,16 @@
     </ul>
   </nav>
   <div class="nav-actions">
-    <nav class="lang" aria-label="Idioma">
-      <a href="../" hreflang="en" lang="en" data-lang="en">EN</a><a href="../ka/" hreflang="ka" lang="ka" data-lang="ka">ქარ</a><a href="../ja/" hreflang="ja" lang="ja" data-lang="ja">日本</a><a href="../es/" hreflang="es" lang="es" data-lang="es" aria-current="page">ES</a><a href="../fr/" hreflang="fr" lang="fr" data-lang="fr">FR</a>
-    </nav>
+    <details class="lang" id="lang">
+      <summary aria-label="Idioma"><svg class="globe" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"></svg><span class="lang-current">ES</span><svg class="chev" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></svg></summary>
+      <ul class="lang-menu">
+        <li><a href="../" hreflang="en" lang="en" data-lang="en">English</a></li>
+        <li><a href="../ka/" hreflang="ka" lang="ka" data-lang="ka">ქართული</a></li>
+        <li><a href="../ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li>
+        <li><a href="../es/" hreflang="es" lang="es" data-lang="es" aria-current="page">Español</a></li>
+        <li><a href="../fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li>
+      </ul>
+    </details>
     <a class="btn btn-primary nav-mail" href="mailto:zazabery@gmail.com?subject=Dasabami%20wine" data-mail>Correo</a>
     <button class="btn btn-glass nav-ask" data-open-guide aria-label="Pregunta al guía de la bodega">Preguntar <span class="orb" aria-hidden="true"></span></button>
   </div>
@@ -1638,7 +1645,7 @@
           <span class="listing-shop">MORE Natural Wine</span>
           <span class="listing-loc">Berlín · envíos a la UE y Reino Unido</span>
           <span class="listing-wine">Khikhvi 2019</span>
-          <span class="listing-meta"><span class="price">€27 · £20</span><span class="status">Agotado</span></span>
+          <span class="listing-meta"><span class="status">Agotado</span></span>
         </span>
       </a>
       <a class="listing" href="https://www.hopburnsblack.co.uk/products/dasabamirkatsiteliorange201612750ml" target="_blank" rel="noopener" data-reveal>
@@ -1647,7 +1654,7 @@
           <span class="listing-shop">Hop Burns &amp; Black</span>
           <span class="listing-loc">Londres, Reino Unido</span>
           <span class="listing-wine">Rkatsiteli 2016</span>
-          <span class="listing-meta"><span class="price">£29.95</span><span class="status">Agotado</span></span>
+          <span class="listing-meta"><span class="status">Agotado</span></span>
         </span>
       </a>
       <a class="listing" href="https://thecellardor.com/dasabami-rkatsiteli-2022-750ml/" target="_blank" rel="noopener" data-reveal>
@@ -1656,7 +1663,7 @@
           <span class="listing-shop">The Cellar d’Or</span>
           <span class="listing-loc">Ithaca, Nueva York</span>
           <span class="listing-wine">Rkatsiteli 2022 y 2020</span>
-          <span class="listing-meta"><span class="price">$19.99 · $25.99</span><span class="status">Agotado</span></span>
+          <span class="listing-meta"><span class="status">Agotado</span></span>
         </span>
       </a>
       <a class="listing" href="https://www.grandwinecellar.com/products/dasabami-rkatsiteli" target="_blank" rel="noopener" data-reveal>
@@ -1665,7 +1672,7 @@
           <span class="listing-shop">Grand Wine Cellar</span>
           <span class="listing-loc">Syosset, Nueva York</span>
           <span class="listing-wine">Rkatsiteli · caja de 12 botellas</span>
-          <span class="listing-meta"><span class="price">288 $ / caja</span><span class="status">Agotado</span></span>
+          <span class="listing-meta"><span class="status">Agotado</span></span>
         </span>
       </a>
       <a class="listing" href="https://sf.flatiron-wines.com/collections/dasabami" target="_blank" rel="noopener" data-reveal>
@@ -1889,6 +1896,6 @@
 <!-- I18N:START -->
 <script>window.DASABAMI_I18N = {"greeting": "¡Gamarjoba! Soy el guía de la bodega Dasabami. Pregúntame por los vinos, el qvevri, la familia o dónde encontrar una botella, y te llevo a la parte de la página que buscas.", "fallback": "Puedo ayudarte con los vinos, cómo se elaboran, la familia, dónde comprarlos y los próximos eventos. Prueba con una de estas preguntas:", "suggestions": ["Muéstrame los vinos ámbar", "¿Cómo se elabora el vino de qvevri?", "¿Dónde puedo comprarlo?", "¿Quién es el viticultor?"], "goingThere": "Te llevo allí…", "copied": "Copiado:", "keepScrolling": "Sigue bajando", "opening": "Abriendo {name}…", "badge": {"today": "Hoy", "recently": "Reciente"}, "styles": {"Amber wine": "Vino ámbar", "Red wine": "Vino tinto", "Blend": "Coupage"}, "labels": {"Grape": "Uva", "Grapes": "Uvas", "Vessel": "Vasija", "Vines": "Viñas", "Label": "Etiqueta", "Style": "Estilo", "Poured at": "Servido en"}, "values": {"Qvevri": "Qvevri", "About 70 years old": "Unos 70 años", "Painted art label": "Etiqueta artística pintada", "Skin contact": "Maceración con pieles", "Amber white": "Blanco ámbar", "Dry red": "Tinto seco", "Proper Natural Wine, London": "Proper Natural Wine, Londres", "Various": "Varias"}, "wines": {"rkatsiteli-2019": "La gran uva blanca de Georgia, fermentada con sus pieles en qvevri hasta volverse ámbar. Del viñedo familiar de 70 años.", "khikhvi-2018": "La rara uva blanca de Kajetia, cultivada aquí en cepas más jóvenes plantadas hacia 2009. La tienda Skin Contact de Hamburgo clasificó el 2018 como enérgico, vibrante y profundo.", "tavkveri-2019": "La uva tinta autóctona de Kartli. Una maceración corta con pieles y después meses de reposo en qvevri. Las últimas añadas apenas llegan a un par de cientos de botellas.", "mtsvane-2017": "Un blanco ámbar de Mtsvane, fermentado con sus pieles en qvevri. Las últimas añadas pasan unos seis meses con pieles.", "tavkveri-2017": "Un tinto seco elaborado con fermentación con pieles en qvevri.", "rkatsiteli-2016": "Rkatsiteli ámbar que viajó hasta Londres, donde se sirvió en Proper Natural Wine.", "tavkveri-2018": "Tavkveri de la vendimia de 2018, fermentado en qvevri.", "field-blend": "Un coupage de uvas de la hectárea familiar. Si buscas un coupage actual, prueba el Rkatsiteli–Mtsvane (80/20)."}, "tellMe": "Háblame de {name}", "grapes": {"Field Blend": "Coupage de campo"}, "intents": {"contact": {"kw": ["contactar", "cómo contacto", "como contacto", "contacto con", "datos de contacto", "correo", "email", "e-mail", "escribir", "escribirle", "teléfono", "telefono", "llamar", "mensaje", "gmail"], "faq": 9}, "event": {"kw": ["evento", "berlín", "berlin", "amber georgia", "feria", "festival", "degustación", "catas", "próxima cita"], "answer": "Dasabami sirve sus vinos en Amber Georgia, en Berlín, el 28 de noviembre de 2026."}, "buy": {"kw": ["¿dónde puedo comprarlo?", "comprar", "compra", "tienda", "pedido", "pedir", "precio", "cuesta", "importador", "estados unidos", "eeuu", "ee. uu.", "londres", "tiflis", "tbilisi", "venta", "vende", "dónde puedo", "donde puedo", "dónde encontrar", "donde encontrar", "disponib"], "faq": 7}, "visit": {"kw": ["visitar", "visita", "tour", "recorrido", "viajar", "viaje", "ir a la bodega", "conocer la bodega"], "answer": "Dasabami es una pequeña bodega familiar en Tamarisi, al sur de Tiflis. Si quieres visitarla, escribe antes a zazabery@gmail.com o a @dasabami en Instagram."}, "where": {"kw": ["dónde está", "donde esta", "dónde queda", "ubicación", "ubicacion", "ubicado", "situado", "tamarisi", "kartli", "región", "region", "mapa", "pueblo", "de dónde", "de donde"], "faq": 2}, "rare": {"kw": ["raro", "rara", "escaso", "limitad", "cuántas botellas", "cuantas botellas", "producción", "produccion", "rareza", "exclusiv"], "faq": 6}, "red": {"kw": ["tinto", "rojo", "tavkveri", "saperavi"], "faq": 3}, "amber": {"kw": ["muéstrame los vinos ámbar", "ámbar", "ambar", "naranja", "maceración", "maceracion", "pieles", "blanco", "blancos", "rkatsiteli", "mtsvane", "khikhvi"], "faq": 3}, "qvevri": {"kw": ["¿cómo se elabora el vino de qvevri?", "qvevri", "kvevri", "tinaja", "arcilla", "barro", "cómo se elabora", "como se elabora", "cómo se hace", "como se hace", "elaboración", "elaboracion", "proceso", "método", "metodo", "fermenta"], "faq": 4}, "organic": {"kw": ["ecológic", "ecologic", "orgánic", "organic", "natural", "sulfit", "so2", "so₂", "aditiv", "vegan", "filtr", "clarific"], "faq": 5}, "press": {"kw": ["prensa", "crítica", "critica", "crítico", "reseña", "resena", "opinión", "opinion", "puntuación", "valoración", "vivino", "libro", "capalbo", "medios", "artículo"], "answer": "Dasabami aparece en el libro Tasting Georgia de Carla Capalbo y en Culinary Backstreets. El importador estadounidense Roni Selects cuenta a Zaza entre los fundadores del movimiento del vino natural en Georgia. En Vivino tiene una media de 3,8 sobre 222 valoraciones, y el Khikhvi es el mejor valorado."}, "pair": {"kw": ["maridaje", "maridar", "marida", "comida", "comer", "plato", "queso", "cenar", "acompañar"], "answer": "Una regla general para los vinos de qvevri: los ámbar, como el Rkatsiteli y el Khikhvi, tienen estructura y textura que van bien con la cocina georgiana (platos con nueces, khachapuri, verduras a la brasa) y con quesos curados. Un reseñista calificó el Rkatsiteli 2010 de magnífico con queso. El Tavkveri es más ligero y acompaña carnes a la brasa y setas."}, "zaza": {"kw": ["¿quién es el viticultor?", "zaza", "viticultor", "enólogo", "enologo", "bodeguero", "quién", "quien", "familia", "darsavelidze", "historia", "fundador", "fundó", "padre"], "faq": 1}, "about": {"kw": ["qué es dasabami", "que es dasabami", "sobre dasabami", "háblame de dasabami", "hablame de dasabami"], "faq": 0}, "name": {"kw": ["significa", "significado", "nombre", "quiere decir", "დასაბამი"], "faq": 8}, "wines": {"kw": ["vino", "vinos", "botella", "gama", "cuvée", "uvas", "variedades"], "faq": 3}}, "lang": "es", "base": "../", "faq": ["Dasabami (დასაბამი, «el principio») es una bodega familiar de vino natural en Tamarisi, un pueblo del municipio de Marneuli, en Kvemo Kartli (Georgia). La fundó el padre del viticultor Zaza Darsavelidze y elabora hasta unas 3.000 botellas al año de vino natural y ecológico de qvevri a partir de una sola hectárea.", "Zaza Darsavelidze y toda su familia. Zaza es la tercera generación de la familia que elabora vino en Baja Kartli, y embotelló por primera vez el vino familiar en 2012.", "En el pueblo de Tamarisi, municipio de Marneuli, en Kvemo Kartli (Baja Kartli), Georgia, al sur de Tiflis y al este del río Khrami. El viñedo tiene alrededor de una hectárea y unos 70 años.", "Cuatro variedades autóctonas georgianas: Rkatsiteli, Mtsvane y Khikhvi, con las que elabora vinos ámbar, y Tavkveri, un tinto. Las cepas viejas tienen unos 70 años; la Khikhvi se plantó hacia 2009.", "En qvevri, tinajas de barro enterradas en el suelo. La uva fermenta con levaduras autóctonas; las uvas blancas permanecen con sus pieles de tres a doce meses y se vuelven ámbar. Los vinos no se clarifican ni se filtran y se embotellan sin SO₂ añadido. Uno de los qvevri de la familia tiene más de un siglo.", "Sí. Dasabami es un vino natural georgiano: el viñedo se cultiva en ecológico (orgánico), las fichas técnicas del importador indican que no lleva sulfitos añadidos, que fermenta con levaduras autóctonas y que no se clarifica ni se filtra, y Dasabami es miembro de la Asociación de Vino Natural de Georgia.", "Hasta unas 3.000 botellas al año en total. Cada vino es un lote pequeño, desde 180 botellas (Tavkveri 2020) hasta 900 botellas (Rkatsiteli 2020).", "En Tiflis, en 27 Wine Cellar & Shop y en Sulico Wine Bar (calle Zandukeli 27) y en Dadi Wine Bar (calle Dadiani 4, junto a la plaza de la Libertad), y en Estados Unidos a través del importador Roni Selects. Entre las tiendas online que lo han vendido están MORE Natural Wine (Berlín), Hop Burns & Black (Londres), The Cellar d’Or y Grand Wine Cellar (Nueva York); el 22 de noviembre de 2026 todas lo tenían agotado. Para conseguir botellas, escribe a zazabery@gmail.com o envía un mensaje a @dasabami en Instagram.", "Dasabami (დასაბამი) significa en georgiano «el principio» o «el origen».", "Escribe a Zaza Darsavelidze a zazabery@gmail.com o envía un mensaje a @dasabami en Instagram."]};</script>
   <!-- I18N:END -->
-<script src="../assets/js/main.js?v=2026112203" defer></script>
+<script src="../assets/js/main.js?v=2026112204" defer></script>
 </body>
 </html>

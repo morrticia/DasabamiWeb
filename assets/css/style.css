@@ -886,3 +886,31 @@ section { position: relative; }
 @media (max-width: 1190px) { html[lang="es"] .nav-links { display: none; } }
 @media (max-width: 1160px) { html[lang="ja"] .nav-links { display: none; } }
 @media (max-width: 1140px) { html[lang="fr"] .nav-links { display: none; } }
+
+/* ---------- language dropdown ---------- */
+.lang { position: relative; margin-right: 4px; }
+.lang summary {
+  list-style: none; cursor: pointer; display: inline-flex; align-items: center; gap: 6px;
+  height: 36px; padding: 0 10px 0 11px; border-radius: 999px; font-size: 13px; font-weight: 600; letter-spacing: 0.04em;
+  color: var(--ink-2); border: 1px solid var(--hairline); transition: color 0.2s, background 0.2s, border-color 0.2s;
+}
+.lang summary::-webkit-details-marker { display: none; }
+.lang summary:hover, .lang[open] summary { color: var(--ink); background: var(--hairline); }
+.lang .globe { width: 16px; height: 16px; }
+.lang .chev { width: 12px; height: 12px; transition: transform 0.35s var(--ease-out); }
+.lang[open] .chev { transform: rotate(180deg); }
+.lang-menu {
+  position: absolute; right: 0; top: calc(100% + 8px); z-index: 70; min-width: 168px; margin: 0; padding: 6px; list-style: none;
+  border-radius: 12px; background: var(--glass-panel, var(--glass-strong)); -webkit-backdrop-filter: var(--blur); backdrop-filter: var(--blur);
+  border: 1px solid var(--glass-border); box-shadow: 0 18px 48px -18px rgba(0,0,0,0.45);
+  animation: lang-in 0.25s var(--ease-out);
+}
+@keyframes lang-in { from { opacity: 0; transform: translateY(-6px) scale(0.98); } }
+.lang-menu a {
+  display: flex; justify-content: space-between; align-items: center; gap: 12px;
+  padding: 10px 12px; border-radius: 8px; font-size: 14px; font-weight: 500; color: var(--ink-2); letter-spacing: 0; white-space: nowrap;
+}
+.lang-menu a:hover { background: var(--hairline); color: var(--ink); }
+.lang-menu a[aria-current="page"] { color: var(--ink); }
+.lang-menu a[aria-current="page"]::after { content: "\2713"; color: var(--amber); font-size: 13px; }
+@media (max-width: 720px) { .lang summary { padding: 0 8px; height: 34px; } }

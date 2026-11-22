@@ -57,7 +57,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="preload" as="image" href="../assets/img/vineyard-sun-lg.webp" fetchpriority="high">
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Instrument+Serif:ital@0;1&amp;display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="../assets/css/style.css?v=2026112203">
+  <link rel="stylesheet" href="../assets/css/style.css?v=2026112204">
 
   <!-- JSONLD:START -->
   <script type="application/ld+json">
@@ -1124,9 +1124,16 @@
     </ul>
   </nav>
   <div class="nav-actions">
-    <nav class="lang" aria-label="ენა">
-      <a href="../" hreflang="en" lang="en" data-lang="en">EN</a><a href="../ka/" hreflang="ka" lang="ka" data-lang="ka" aria-current="page">ქარ</a><a href="../ja/" hreflang="ja" lang="ja" data-lang="ja">日本</a><a href="../es/" hreflang="es" lang="es" data-lang="es">ES</a><a href="../fr/" hreflang="fr" lang="fr" data-lang="fr">FR</a>
-    </nav>
+    <details class="lang" id="lang">
+      <summary aria-label="ენა"><svg class="globe" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="9"><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"></svg><span class="lang-current">KA</span><svg class="chev" viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 9l6 6 6-6"></svg></summary>
+      <ul class="lang-menu">
+        <li><a href="../" hreflang="en" lang="en" data-lang="en">English</a></li>
+        <li><a href="../ka/" hreflang="ka" lang="ka" data-lang="ka" aria-current="page">ქართული</a></li>
+        <li><a href="../ja/" hreflang="ja" lang="ja" data-lang="ja">日本語</a></li>
+        <li><a href="../es/" hreflang="es" lang="es" data-lang="es">Español</a></li>
+        <li><a href="../fr/" hreflang="fr" lang="fr" data-lang="fr">Français</a></li>
+      </ul>
+    </details>
     <a class="btn btn-primary nav-mail" href="mailto:zazabery@gmail.com?subject=Dasabami%20wine" data-mail>ელფოსტა</a>
     <button class="btn btn-glass nav-ask" data-open-guide aria-label="ჰკითხეთ მარნის გიდს">ჰკითხეთ <span class="orb" aria-hidden="true"></span></button>
   </div>
@@ -1637,7 +1644,7 @@
           <span class="listing-shop">MORE Natural Wine</span>
           <span class="listing-loc">ბერლინი · მიწოდება ევროკავშირსა და დიდ ბრიტანეთში</span>
           <span class="listing-wine">ხიხვი 2019</span>
-          <span class="listing-meta"><span class="price">€27 · £20</span><span class="status">გაყიდულია</span></span>
+          <span class="listing-meta"><span class="status">გაყიდულია</span></span>
         </span>
       </a>
       <a class="listing" href="https://www.hopburnsblack.co.uk/products/dasabamirkatsiteliorange201612750ml" target="_blank" rel="noopener" data-reveal>
@@ -1646,7 +1653,7 @@
           <span class="listing-shop">Hop Burns &amp; Black</span>
           <span class="listing-loc">ლონდონი, დიდი ბრიტანეთი</span>
           <span class="listing-wine">რქაწითელი 2016</span>
-          <span class="listing-meta"><span class="price">£29.95</span><span class="status">გაყიდულია</span></span>
+          <span class="listing-meta"><span class="status">გაყიდულია</span></span>
         </span>
       </a>
       <a class="listing" href="https://thecellardor.com/dasabami-rkatsiteli-2022-750ml/" target="_blank" rel="noopener" data-reveal>
@@ -1655,7 +1662,7 @@
           <span class="listing-shop">The Cellar d’Or</span>
           <span class="listing-loc">იტაკა, ნიუ-იორკი</span>
           <span class="listing-wine">რქაწითელი 2022 და 2020</span>
-          <span class="listing-meta"><span class="price">$19.99 · $25.99</span><span class="status">გაყიდულია</span></span>
+          <span class="listing-meta"><span class="status">გაყიდულია</span></span>
         </span>
       </a>
       <a class="listing" href="https://www.grandwinecellar.com/products/dasabami-rkatsiteli" target="_blank" rel="noopener" data-reveal>
@@ -1664,7 +1671,7 @@
           <span class="listing-shop">Grand Wine Cellar</span>
           <span class="listing-loc">სიოსეტი, ნიუ-იორკი</span>
           <span class="listing-wine">რქაწითელი · 12-ბოთლიანი ყუთი</span>
-          <span class="listing-meta"><span class="price">$288 / ყუთი</span><span class="status">გაყიდულია</span></span>
+          <span class="listing-meta"><span class="status">გაყიდულია</span></span>
         </span>
       </a>
       <a class="listing" href="https://sf.flatiron-wines.com/collections/dasabami" target="_blank" rel="noopener" data-reveal>
@@ -1888,6 +1895,6 @@
 <!-- I18N:START -->
 <script>window.DASABAMI_I18N = {"greeting": "გამარჯობა! მე დასაბამის მარნის გიდი ვარ. მკითხეთ ღვინოებზე, ქვევრზე, ოჯახზე ან სად შეიძლება ბოთლის შოვნა — და გვერდის საჭირო ნაწილზე გადაგიყვანთ.", "fallback": "შემიძლია გიამბოთ ღვინოებზე, მათ დაყენებაზე, ოჯახზე, სად იყიდება და მომავალ ღონისძიებებზე. სცადეთ ერთ-ერთი კითხვა:", "suggestions": ["მაჩვენეთ ქარვისფერი ღვინოები", "როგორ მზადდება ქვევრის ღვინო?", "სად შემიძლია ვიყიდო?", "ვინ არის მეღვინე?"], "goingThere": "გადაგიყვანთ…", "copied": "დაკოპირდა:", "keepScrolling": "განაგრძეთ სქროლვა", "opening": "იხსნება {name}…", "badge": {"today": "დღეს", "recently": "ცოტა ხნის წინ"}, "styles": {"Amber wine": "ქარვისფერი ღვინო", "Red wine": "წითელი ღვინო", "Blend": "კუპაჟი"}, "labels": {"Grape": "ჯიში", "Grapes": "ჯიშები", "Vessel": "ჭურჭელი", "Vines": "ვაზი", "Label": "ეტიკეტი", "Style": "სტილი", "Poured at": "სად ასხამდნენ"}, "values": {"Qvevri": "ქვევრი", "About 70 years old": "დაახლოებით 70 წლის", "Painted art label": "მხატვრული ეტიკეტი", "Skin contact": "ჭაჭაზე დაყენება", "Amber white": "ქარვისფერი თეთრი", "Dry red": "მშრალი წითელი", "Proper Natural Wine, London": "Proper Natural Wine, ლონდონი", "Various": "სხვადასხვა", "Rkatsiteli": "რქაწითელი", "Mtsvane": "მწვანე", "Khikhvi": "ხიხვი", "Tavkveri": "თავკვერი"}, "wines": {"rkatsiteli-2019": "საქართველოს დიდი თეთრი ჯიში, ქვევრში ჭაჭაზე დადუღებული, სანამ ქარვისფერს არ მიიღებს. 70 წლის საოჯახო ვენახიდან.", "khikhvi-2018": "იშვიათი კახური თეთრი ჯიში, რომელიც აქ დაახლოებით 2009 წელს დარგულ ახალგაზრდა ვაზზე მოჰყავთ. ჰამბურგის მაღაზიამ Skin Contact 2018 წლის ღვინო ენერგიულ, ცოცხალ და ღრმა ღვინოებს მიაკუთვნა.", "tavkveri-2019": "ქართლის ადგილობრივი წითელი ჯიში. ხანმოკლე დაყოვნება ჭაჭაზე, შემდეგ რამდენიმე თვე ქვევრში. ბოლო მოსავლებიდან სულ რაღაც ორასიოდე ბოთლი მზადდება.", "mtsvane-2017": "მწვანისგან დაყენებული ქარვისფერი ღვინო, ქვევრში ჭაჭაზე დადუღებული. ბოლო მოსავლები დაახლოებით ექვს თვეს ატარებს ჭაჭაზე.", "tavkveri-2017": "მშრალი წითელი, ქვევრში ჭაჭაზე დადუღებით დაყენებული.", "rkatsiteli-2016": "ქარვისფერი რქაწითელი, რომელმაც ლონდონამდე იმოგზაურა: მას იქ Proper Natural Wine-ში ასხამდნენ.", "tavkveri-2018": "2018 წლის მოსავლის თავკვერი, ქვევრში დადუღებული.", "field-blend": "საოჯახო ჰექტრის სხვადასხვა ჯიშის ყურძნის ნაზავი. ამჟამინდელი კუპაჟისთვის მოიკითხეთ რქაწითელი–მწვანე (80/20)."}, "tellMe": "მიამბეთ: {name}", "grapes": {"Rkatsiteli": "რქაწითელი", "Mtsvane": "მწვანე", "Khikhvi": "ხიხვი", "Tavkveri": "თავკვერი", "Field Blend": "ჯიშების ნაზავი"}, "geo": {"Rkatsiteli": "Rkatsiteli", "Mtsvane": "Mtsvane", "Khikhvi": "Khikhvi", "Tavkveri": "Tavkveri", "Field Blend": "Field Blend"}, "intents": {"contact": {"kw": ["კონტაქტ", "კავშირ", "დაკავშირ", "დავუკავშირ", "ელფოსტ", "ელ-ფოსტ", "მეილ", "იმეილ", "მივწერ", "ტელეფონ", "დავრეკ", "შეტყობინებ", "gmail", "email"], "faq": 9}, "event": {"kw": ["ღონისძიებ", "ბერლინ", "berlin", "amber georgia", "ამბერ ჯორჯია", "ფესტივალ", "დეგუსტაცი", "გამოფენ"], "answer": "დასაბამი 2026 წლის 28 ნოემბერს ბერლინში, Amber Georgia-ზე წარადგენს თავის ღვინოებს."}, "buy": {"kw": ["სად შემიძლია ვიყიდო?", "ვიყიდ", "ყიდვ", "იყიდება", "შევიძინ", "შეძენ", "მაღაზი", "შეკვეთ", "ფასი", "ღირს", "იმპორტ", "აშშ", "ამერიკ", "ლონდონ", "თბილისში", "სად ვიშოვ", "შოვნ"], "faq": 7}, "visit": {"kw": ["ვესტუმრ", "სტუმრ", "ვიზიტ", "ექსკურსი", "ჩამოსვლ", "მოგზაურ", "მოსვლა"], "answer": "დასაბამი პატარა საოჯახო მარანია თამარისში, თბილისის სამხრეთით. თუ სტუმრობა გსურთ, წინასწარ მოგვწერეთ: zazabery@gmail.com ან Instagram-ზე @dasabami."}, "where": {"kw": ["სად მდებარე", "მდებარეობ", "სად არის ვენახ", "სად არის მარან", "თამარის", "ქართლ", "რეგიონ", "რუკა", "სოფელ", "მარნეულ"], "faq": 2}, "rare": {"kw": ["იშვიათ", "რამდენი ბოთლ", "რამდენ ბოთლ", "ლიმიტ", "შეზღუდულ", "წარმოებ"], "faq": 6}, "red": {"kw": ["წითელ", "თავკვერ", "საფერავ"], "faq": 3}, "amber": {"kw": ["მაჩვენეთ ქარვისფერი ღვინოები", "ქარვ", "ნარინჯისფერ", "ჭაჭაზე", "კანზე", "თეთრ", "რქაწითელ", "მწვანე", "ხიხვ"], "faq": 3}, "qvevri": {"kw": ["როგორ მზადდება ქვევრის ღვინო?", "ქვევრ", "როგორ მზადდება", "როგორ აყენებ", "როგორ კეთდება", "დაყენებ", "ტექნოლოგ", "მეთოდ", "დუღილ", "თიხ", "პროცეს"], "faq": 4}, "organic": {"kw": ["ორგანულ", "ნატურალურ", "ბუნებრივ", "სულფიტ", "გოგირდ", "so2", "so₂", "დანამატ", "ფილტრ", "ვეგან", "ბიო", "ქიმი"], "faq": 5}, "press": {"kw": ["პრესა", "კრიტიკ", "შეფასებ", "მიმოხილვ", "რეიტინგ", "vivino", "ვივინო", "წიგნ", "კაპალბო", "მედია", "სტატი"], "answer": "დასაბამი მოხსენიებულია კარლა კაპალბოს წიგნში Tasting Georgia და Culinary Backstreets-ში. აშშ-ის იმპორტიორი Roni Selects ზაზას საქართველოში ნატურალური ღვინის მოძრაობის ფუძემდებლებს შორის ასახელებს. Vivino-ზე საშუალო შეფასებაა 3.8 (222 შეფასება), ყველაზე მაღალი ქულა კი ხიხვს აქვს."}, "pair": {"kw": ["შეუხამ", "კერძ", "საჭმელ", "საჭმლ", "ჭამ", "ყველი", "ყველთან", "ყველის", "სადილ", "ვახშამ"], "answer": "ზოგადი წესი ქვევრის ღვინოებისთვის: ქარვისფერ ღვინოებს, როგორიცაა რქაწითელი და ხიხვი, აქვს ტანინი და სხეული, რაც კარგად უხდება ქართულ სამზარეულოს — ნიგვზიან კერძებს, ხაჭაპურს, შემწვარ ბოსტნეულს — და დავარგებულ ყველს. ერთმა მიმომხილველმა 2010 წლის რქაწითელი ყველთან შესანიშნავად შეაფასა. თავკვერი უფრო მსუბუქია და შემწვარ ხორცსა და სოკოს უხდება."}, "zaza": {"kw": ["ვინ არის მეღვინე?", "ზაზა", "მეღვინე", "ვინ არის", "ვინ აყენებს", "ვინ ამზადებს", "ოჯახ", "დარსაველიძე", "ისტორი", "დამფუძნებ", "მამა"], "faq": 1}, "about": {"kw": ["რა არის დასაბამი", "დასაბამის შესახებ"], "faq": 0}, "name": {"kw": ["ნიშნავს", "მნიშვნელობ", "სახელ"], "faq": 8}, "wines": {"kw": ["ღვინ", "ბოთლ", "ჯიშ", "ყურძ", "ასორტიმენტ"], "faq": 3}}, "lang": "ka", "base": "../", "faq": ["დასაბამი (Dasabami, „დასაწყისი“) საოჯახო ნატურალური ღვინის მარანია თამარისში — სოფელში მარნეულის მუნიციპალიტეტში, ქვემო ქართლში. ის მეღვინე ზაზა დარსაველიძის მამამ დააარსა; მარანი ერთი ჰექტარიდან წელიწადში დაახლოებით 3000 ბოთლამდე ნატურალურ, ორგანულ ქვევრის ღვინოს აყენებს.", "ზაზა დარსაველიძე და მთელი მისი ოჯახი. ზაზა ოჯახში მესამე თაობის მეღვინეა ქვემო ქართლში; ოჯახის ღვინო პირველად 2012 წელს ჩამოასხა.", "სოფელ თამარისში, მარნეულის მუნიციპალიტეტში, ქვემო ქართლში, თბილისის სამხრეთით და მდინარე ხრამის აღმოსავლეთით. ვენახი დაახლოებით ერთი ჰექტარია და დაახლოებით 70 წლისაა.", "ოთხი ადგილობრივი ქართული ჯიში: რქაწითელი, მწვანე და ხიხვი, რომლებისგანაც ქარვისფერი ღვინო მზადდება, და თავკვერი — წითელი. ძველი ვაზი დაახლოებით 70 წლისაა; ხიხვი დაახლოებით 2009 წელს დაირგო.", "ქვევრში — მიწაში ჩაფლულ თიხის ჭურჭელში. ყურძენი ადგილობრივი საფუარით დუღს; თეთრი ყურძენი სამიდან თორმეტ თვემდე რჩება ჭაჭაზე და ქარვისფერი ხდება. ღვინო არ იწმინდება, არ იფილტრება და ჩამოისხმება დამატებითი SO₂-ის გარეშე. ოჯახის ერთ-ერთი ქვევრი საუკუნეზე ხნიერია.", "დიახ. დასაბამი ქართული ნატურალური ღვინოა: ვენახი ორგანულად მუშავდება, იმპორტიორის ტექნიკურ ფურცლებში მითითებულია, რომ ღვინოს სულფიტები არ ემატება, დუღს ადგილობრივი საფუარით და არც იწმინდება, არც იფილტრება, ხოლო დასაბამი იმ მარნებს შორისაა, რომლებსაც აერთიანებს ბუნებრივი ღვინის ასოციაცია.", "წელიწადში სულ დაახლოებით 3000 ბოთლამდე. თითოეული ღვინო მცირე პარტიაა — 180 ბოთლიდან (თავკვერი 2020) 900 ბოთლამდე (რქაწითელი 2020).", "თბილისში: 27 Wine Cellar & Shop-სა და ბარში Sulico Wine Bar (ზანდუკელის ქ. 27), ასევე ბარში Dadi Wine Bar (დადიანის ქ. 4, თავისუფლების მოედანთან), ხოლო აშშ-ში — იმპორტიორ Roni Selects-ის მეშვეობით. ონლაინ მაღაზიებიდან დასაბამი იყიდებოდა MORE Natural Wine-ში (ბერლინი), Hop Burns & Black-ში (ლონდონი), The Cellar d’Or-სა და Grand Wine Cellar-ში (ნიუ-იორკი); 2026 წლის 22 ნოემბრისთვის ყველგან გაყიდული იყო. ახალი ბოთლებისთვის მოგვწერეთ ელფოსტაზე zazabery@gmail.com ან მოგვწერეთ @dasabami Instagram-ზე.", "დასაბამი (Dasabami) ქართულად „დასაწყისს“ ან „სათავეს“ ნიშნავს.", "მისწერეთ ზაზა დარსაველიძეს ელფოსტაზე zazabery@gmail.com, ან მოგვწერეთ @dasabami Instagram-ზე."]};</script>
   <!-- I18N:END -->
-<script src="../assets/js/main.js?v=2026112203" defer></script>
+<script src="../assets/js/main.js?v=2026112204" defer></script>
 </body>
 </html>
