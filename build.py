@@ -237,6 +237,7 @@ class Translator(HTMLParser):
         self.lang = lang
         self.out = []
         self.raw = 0  # inside script/style
+        self.skip = 0  # inside an element omitted for this language
 
     def tr(self, text):
         key = " ".join(text.split())
@@ -278,26 +279,45 @@ class Translator(HTMLParser):
         self.out.append(f"<!{decl}>")
 
     def handle_starttag(self, tag, attrs):
+        if self.skip:
+            if tag not in VOID:
+                self.skip += 1
+            return
+        omit = dict(attrs).get("data-omit")
+        if omit and self.lang in omit.split():
+            if tag not in VOID:
+                self.skip = 1
+            return
         self.out.append(f"<{tag}{self.attrs(tag, attrs)}>")
         if tag in ("script", "style"):
             self.raw += 1
 
     def handle_startendtag(self, tag, attrs):
+        if self.skip:
+            return
         self.out.append(f"<{tag}{self.attrs(tag, attrs)}>")
 
     def handle_endtag(self, tag):
+        if self.skip:
+            if tag not in VOID:
+                self.skip -= 1
+            return
         if tag in ("script", "style"):
             self.raw = max(0, self.raw - 1)
         if tag not in VOID:
             self.out.append(f"</{tag}>")
 
     def handle_data(self, data):
+        if self.skip:
+            return
         if self.raw:
             self.out.append(data)
         else:
             self.out.append(html.escape(self.tr(data), quote=False))
 
     def handle_comment(self, data):
+        if self.skip:
+            return
         self.out.append(f"<!--{data}-->")
 
 
