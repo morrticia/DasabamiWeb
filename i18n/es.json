@@ -77,7 +77,7 @@
     ],
     [
       "¿Dónde puedo comprar vino Dasabami?",
-      "En Tiflis, en 27 Wine Cellar & Shop y en Sulico Wine Bar (calle Zandukeli 27) y en Dadi Wine Bar (calle Dadiani 4, junto a la plaza de la Libertad), y en Estados Unidos a través del importador Roni Selects. Entre las tiendas online que lo han vendido están MORE Natural Wine (Berlín), Hop Burns & Black (Londres), The Cellar d’Or y Grand Wine Cellar (Nueva York); el 22 de noviembre de 2026 todas lo tenían agotado. Para conseguir botellas, escribe a zazabery@gmail.com o envía un mensaje a @dasabami en Instagram."
+      "En Tiflis, en 27 Wine Cellar & Shop y en Sulico Wine Bar (calle Zandukeli 27) y en Dadi Wine Bar (calle Dadiani 4, junto a la plaza de la Libertad), y en Estados Unidos a través del importador Roni Selects. Entre las tiendas online que lo han vendido están MORE Natural Wine (Berlín), Hop Burns & Black (Londres), The Cellar d’Or y Grand Wine Cellar (Nueva York). Para comprar una botella, escríbenos o envía un mensaje a @dasabami en Instagram."
     ],
     [
       "¿Qué significa «Dasabami»?",
@@ -85,7 +85,7 @@
     ],
     [
       "¿Cómo contacto con Dasabami?",
-      "Escribe a Zaza Darsavelidze a zazabery@gmail.com o envía un mensaje a @dasabami en Instagram."
+      "Envíanos un correo, o envía un mensaje a @dasabami en Instagram."
     ]
   ],
   "js": {
@@ -216,7 +216,7 @@
           "ir a la bodega",
           "conocer la bodega"
         ],
-        "answer": "Dasabami es una pequeña bodega familiar en Tamarisi, al sur de Tiflis. Si quieres visitarla, escribe antes a zazabery@gmail.com o a @dasabami en Instagram."
+        "answer": "Dasabami es una pequeña bodega familiar en Tamarisi, al sur de Tiflis. Si quieres visitarla, escríbenos antes por correo o a @dasabami en Instagram."
       },
       "where": {
         "kw": [
@@ -402,7 +402,9 @@
         ],
         "faq": 3
       }
-    }
+    },
+    "copiedEmail": "Dirección de correo copiada",
+    "copyFailed": "No se pudo copiar. Usa «Enviar un correo»."
   },
   "strings": {
     "Skip to content": "Saltar al contenido",
@@ -724,6 +726,19 @@
     "The Dasabami vineyard, Lower Kartli": "El viñedo de Dasabami, Baja Kartli",
     "Qvevri in a Georgian vineyard · @funky_wine_beats": "Qvevri en un viñedo georgiano · @funky_wine_beats",
     "Zaza in the vineyard · Amber Georgia": "Zaza en el viñedo · Amber Georgia",
-    "Rkatsiteli 2019 · Natural Wine Association": "Rkatsiteli 2019 · Asociación de Vino Natural"
+    "Rkatsiteli 2019 · Natural Wine Association": "Rkatsiteli 2019 · Asociación de Vino Natural",
+    "Sold in many countries.": "A la venta en muchos países.",
+    "Shops around the world that have listed Dasabami. To buy a bottle, write to us.": "Tiendas de todo el mundo que han vendido Dasabami. Para comprar una botella, escríbenos.",
+    "Write to us": "Escríbenos",
+    "Write to us.": "Escríbenos.",
+    "Importers, wine shops, press, or a question about a bottle.": "Importadores, tiendas de vino, prensa o una pregunta sobre una botella.",
+    ". Online shops that have listed it include MORE Natural Wine (Berlin), Hop Burns & Black (London), The Cellar d’Or and Grand Wine Cellar (New York). To buy a bottle,": ". Entre las tiendas online que lo han vendido están MORE Natural Wine (Berlín), Hop Burns & Black (Londres), The Cellar d’Or y Grand Wine Cellar (Nueva York). Para comprar una botella,",
+    "write to us": "escríbenos",
+    "Send us an email": "Envíanos un correo",
+    ", or message": ", o envía un mensaje a",
+    "Email us": "Escríbenos",
+    "Bunches of an old Racha grape variety that carries a family name, still on the vine in November after the harvest": "Racimos de una antigua variedad de Racha que lleva un apellido familiar, aún en la cepa en noviembre, después de la vendimia",
+    "An old Racha variety with a family name, in November after the harvest": "Una antigua variedad de Racha con apellido familiar, en noviembre, tras la vendimia",
+    "Natural, organic wine from Georgia. Dasabami Wine Cellar · Tamarisi, Marneuli Municipality, Kvemo Kartli, Georgia. Photos from the Darsavelidze family, @dasabami and the people who tag us on Instagram, credited where shown; winter pruning and 2019 bottle photos from Dasabami’s Natural Wine Association profile. Press items link to their original sources; only the Culinary Backstreets line is a direct quote, the others are summaries. Please enjoy wine responsibly.": "Vino natural y ecológico de Georgia. Dasabami Wine Cellar · Tamarisi, municipio de Marneuli, Kvemo Kartli, Georgia. Fotos de la familia Darsavelidze, de @dasabami y de quienes nos etiquetan en Instagram, con crédito donde se indica; las fotos de la poda invernal y de la botella de 2019 proceden del perfil de Dasabami en la Asociación de Vino Natural. Las reseñas de prensa enlazan a sus fuentes originales; solo la frase de Culinary Backstreets es una cita literal, las demás son resúmenes. Bebe con moderación."
   }
 }

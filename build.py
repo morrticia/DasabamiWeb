@@ -244,7 +244,14 @@ class Translator(HTMLParser):
         if key and key in self.s:
             lead = text[: len(text) - len(text.lstrip())]
             trail = text[len(text.rstrip()):]
-            return lead + self.s[key] + trail
+            out = self.s[key]
+            if self.lang == "ja":
+                # Japanese: no space before particles (hiragana) or after 、 and 。
+                if re.match(r"[\u3040-\u309f]", out):
+                    lead = ""
+                if out.endswith(("、", "。")):
+                    trail = ""
+            return lead + out + trail
         return text
 
     def fix_path(self, k, v):

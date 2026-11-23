@@ -914,3 +914,16 @@ section { position: relative; }
 .lang-menu a[aria-current="page"] { color: var(--ink); }
 .lang-menu a[aria-current="page"]::after { content: "\2713"; color: var(--amber); font-size: 13px; }
 @media (max-width: 720px) { .lang summary { padding: 0 8px; height: 34px; } }
+
+/* phones: static hero (address-bar resizes made the scroll-driven frame jump) */
+@media (max-width: 720px) {
+  .hero { height: auto; }
+  .hero-sticky { position: relative; height: auto; display: block; overflow: visible; padding-top: 88px; }
+  .hero-copy { position: relative; top: auto; opacity: 1 !important; transform: none !important; padding-bottom: 28px; }
+  .hero-frame { position: relative; left: auto; top: auto; transform: none; width: 100%; height: auto; aspect-ratio: 4 / 5; box-shadow: none; }
+  .hero-frame img { transform: none; }
+  .hero-frame::after { opacity: 1; }
+  .hero-caption { position: absolute; bottom: 28px; opacity: 1 !important; transform: none !important; }
+  .hero-caption p { font-size: clamp(24px, 7vw, 32px); }
+}
+.contact .big-mail + .lede { margin: 20px auto 0; }

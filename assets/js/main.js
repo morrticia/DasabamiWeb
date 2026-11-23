@@ -415,8 +415,8 @@
   }
   const copyBtn = $('#copy-email');
   if (copyBtn) copyBtn.addEventListener('click', async () => {
-    try { await navigator.clipboard.writeText(EMAIL); toast((T.copied || 'Copied') + ' ' + EMAIL); }
-    catch (_) { toast(EMAIL); }
+    try { await navigator.clipboard.writeText(EMAIL); toast(T.copiedEmail || 'Email address copied'); }
+    catch (_) { toast(T.copyFailed || 'Could not copy. Use “Send an email” instead.'); }
   });
 
   /* ==================================================================
@@ -438,7 +438,7 @@
 
   const INTENTS = [
     { id: 'contact', re: /contact|e-?mail|mail|reach|write|phone|call|message|gmail/i,
-      say: () => `<p>Write to Zaza directly at <a href="mailto:zazabery@gmail.com"><b>zazabery@gmail.com</b></a>, or message <a href="https://www.instagram.com/dasabami/" target="_blank" rel="noopener">@dasabami</a> on Instagram. Importers, shops, press and questions about a bottle are all welcome.</p>`,
+      say: () => `<p><a href="mailto:zazabery@gmail.com?subject=Dasabami%20wine"><b>Send us an email</b></a>, or message <a href="https://www.instagram.com/dasabami/" target="_blank" rel="noopener">@dasabami</a> on Instagram. Importers, shops, press and questions about a bottle are all welcome.</p>`,
       act: [{ label: 'Opening contact', run: go('#contact', { offset: 60 }) }],
       next: ['Where can I buy it?', 'Show me the amber wines'] },
     { id: 'amber', re: /\bamber|orange|skin.?contact|white|rkats|mtsvane|khikhvi\b/i,
@@ -466,7 +466,7 @@
       act: [{ label: 'Showing step 4: Bottled as it is', run: go('.step:last-child', { offset: 200 }) }],
       next: ['How is qvevri wine made?', 'Who is the winemaker?'] },
     { id: 'zaza', re: /zaza|winemaker|who|family|darsavelidze|story|history|founder|father/i,
-      say: () => `<p><b>Zaza Darsavelidze</b> runs Dasabami, the family cellar his father founded in Tamarisi. The whole family makes the wine together, and Zaza first bottled it in 2012. You can write to him at <a href="mailto:zazabery@gmail.com">zazabery@gmail.com</a>.</p>`,
+      say: () => `<p><b>Zaza Darsavelidze</b> runs Dasabami, the family cellar his father founded in Tamarisi. The whole family makes the wine together, and Zaza first bottled it in 2012.</p>`,
       act: [{ label: 'Opening the family story', run: go('#story', { offset: 100 }) }],
       next: ['Where is the vineyard?', 'What do critics say?'] },
     { id: 'where', re: /where.*(vineyard|located|from)|location|tamarisi|kartli|region|map|village/i,
@@ -474,7 +474,7 @@
       act: [{ label: 'Scrolling to the vines', run: go('#qvevri', { offset: 100 }) }],
       next: ['Can I visit?', 'Where can I buy it?'] },
     { id: 'buy', re: /buy|shop|stock|purchase|order|price|import|usa|us\b|london|tbilisi|where can/i,
-      say: () => `<p>In <b>Tbilisi</b>, try 27 Wine Cellar &amp; Shop and Sulico Wine Bar at 27 Zandukeli St (the shop stocks the Rkatsiteli–Mtsvane 2025 and Rkatsiteli 2014), or Dadi Wine Bar at 4 Dadiani St, by Freedom Square. In the <b>US</b>, the importer is <a href="https://www.roniselects.com/georgia-producers/dasabami" target="_blank" rel="noopener">Roni Selects</a>. Online listings (Berlin, London, New York) were all sold out when we last checked.</p><p>For current bottles, email <a href="mailto:zazabery@gmail.com">zazabery@gmail.com</a> or message <a href="https://www.instagram.com/dasabami/" target="_blank" rel="noopener">@dasabami</a>.</p>`,
+      say: () => `<p>In <b>Tbilisi</b>, try 27 Wine Cellar &amp; Shop and Sulico Wine Bar at 27 Zandukeli St (the shop stocks the Rkatsiteli–Mtsvane 2025 and Rkatsiteli 2014), or Dadi Wine Bar at 4 Dadiani St, by Freedom Square. In the <b>US</b>, the importer is <a href="https://www.roniselects.com/georgia-producers/dasabami" target="_blank" rel="noopener">Roni Selects</a>. Online shops in Berlin, London and New York have listed it too.</p><p>To buy a bottle, <a href="mailto:zazabery@gmail.com?subject=Dasabami%20wine">write to us</a> or message <a href="https://www.instagram.com/dasabami/" target="_blank" rel="noopener">@dasabami</a>.</p>`,
       act: [{ label: 'Showing online listings', run: go('.listings-head', { offset: 100 }) }],
       next: ['When is the next event?', 'Can I visit?'] },
     { id: 'event', re: /event|berlin|amber georgia|fair|festival|tasting|next/i,
@@ -482,7 +482,7 @@
       act: [{ label: 'Opening the event', run: go('#find', { offset: 100, spot: '#event' }) }],
       next: ['Where can I buy it?', 'What do critics say?'] },
     { id: 'visit', re: /visit|tour|come|trip|travel|book/i,
-      say: () => `<p>Dasabami is a small family cellar in Tamarisi, south of Tbilisi. If you’d like to visit, write first: <a href="mailto:zazabery@gmail.com">zazabery@gmail.com</a> or <a href="https://www.instagram.com/dasabami/" target="_blank" rel="noopener">Instagram</a>.</p>`,
+      say: () => `<p>Dasabami is a small family cellar in Tamarisi, south of Tbilisi. If you’d like to visit, <a href="mailto:zazabery@gmail.com?subject=Visiting%20Dasabami">write to us</a> first, or message us on <a href="https://www.instagram.com/dasabami/" target="_blank" rel="noopener">Instagram</a>.</p>`,
       act: [], next: ['Where is the vineyard?', 'Where can I buy it?'] },
     { id: 'press', re: /press|critic|review|quote|said|rating|vivino|book|capalbo|media/i,
       say: () => `<p>Dasabami appears in Carla Capalbo’s book <i>Tasting Georgia</i> and in Culinary Backstreets. US importer Roni Selects counts Zaza among the founders of Georgia’s natural wine movement. On Vivino it averages <b>3.8 from 222 ratings</b>, with Khikhvi rated highest.</p>`,

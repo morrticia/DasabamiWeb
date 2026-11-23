@@ -76,7 +76,7 @@
     ],
     [
       "სად შემიძლია ვიყიდო დასაბამის ღვინო?",
-      "თბილისში: 27 Wine Cellar & Shop-სა და ბარში Sulico Wine Bar (ზანდუკელის ქ. 27), ასევე ბარში Dadi Wine Bar (დადიანის ქ. 4, თავისუფლების მოედანთან), ხოლო აშშ-ში — იმპორტიორ Roni Selects-ის მეშვეობით. ონლაინ მაღაზიებიდან დასაბამი იყიდებოდა MORE Natural Wine-ში (ბერლინი), Hop Burns & Black-ში (ლონდონი), The Cellar d’Or-სა და Grand Wine Cellar-ში (ნიუ-იორკი); 2026 წლის 22 ნოემბრისთვის ყველგან გაყიდული იყო. ახალი ბოთლებისთვის მოგვწერეთ ელფოსტაზე zazabery@gmail.com ან მოგვწერეთ @dasabami Instagram-ზე."
+      "თბილისში: 27 Wine Cellar & Shop-სა და ბარში Sulico Wine Bar (ზანდუკელის ქ. 27), ასევე ბარში Dadi Wine Bar (დადიანის ქ. 4, თავისუფლების მოედანთან), ხოლო აშშ-ში — იმპორტიორ Roni Selects-ის მეშვეობით. ონლაინ მაღაზიებიდან დასაბამი იყიდებოდა MORE Natural Wine-ში (ბერლინი), Hop Burns & Black-ში (ლონდონი), The Cellar d’Or-სა და Grand Wine Cellar-ში (ნიუ-იორკი). შესაძენად მოგვწერეთ ელფოსტაზე ან მოგვწერეთ @dasabami Instagram-ზე."
     ],
     [
       "რას ნიშნავს „დასაბამი“?",
@@ -84,7 +84,7 @@
     ],
     [
       "როგორ დავუკავშირდე დასაბამს?",
-      "მისწერეთ ზაზა დარსაველიძეს ელფოსტაზე zazabery@gmail.com, ან მოგვწერეთ @dasabami Instagram-ზე."
+      "მოგვწერეთ ელფოსტაზე, ან მოგვწერეთ @dasabami Instagram-ზე."
     ]
   ],
   "js": {
@@ -222,7 +222,7 @@
           "მოგზაურ",
           "მოსვლა"
         ],
-        "answer": "დასაბამი პატარა საოჯახო მარანია თამარისში, თბილისის სამხრეთით. თუ სტუმრობა გსურთ, წინასწარ მოგვწერეთ: zazabery@gmail.com ან Instagram-ზე @dasabami."
+        "answer": "დასაბამი პატარა საოჯახო მარანია თამარისში, თბილისის სამხრეთით. თუ ვიზიტი გსურთ, წინასწარ მოგვწერეთ ელფოსტით ან Instagram-ზე @dasabami."
       },
       "where": {
         "kw": [
@@ -377,7 +377,9 @@
         ],
         "faq": 3
       }
-    }
+    },
+    "copiedEmail": "ელფოსტის მისამართი დაკოპირდა",
+    "copyFailed": "ვერ დაკოპირდა. გამოიყენეთ „ელფოსტის გაგზავნა“."
   },
   "strings": {
     "Skip to content": "მთავარ შინაარსზე გადასვლა",
@@ -737,6 +739,19 @@
     "Qvevri in a Georgian vineyard · @funky_wine_beats": "ქვევრი ქართულ ვენახში · @funky_wine_beats",
     "Zaza in the vineyard · Amber Georgia": "ზაზა ვენახში · Amber Georgia",
     "Rkatsiteli 2019 · Natural Wine Association": "რქაწითელი 2019 · ბუნებრივი ღვინის ასოციაცია",
-    "Khikhvi 2018": "ხიხვი 2018"
+    "Khikhvi 2018": "ხიხვი 2018",
+    "Sold in many countries.": "იყიდება ბევრ ქვეყანაში.",
+    "Shops around the world that have listed Dasabami. To buy a bottle, write to us.": "მაღაზიები, სადაც დასაბამი იყიდებოდა. შესაძენად მოგვწერეთ.",
+    "Write to us": "მოგვწერეთ",
+    "Write to us.": "მოგვწერეთ.",
+    "Importers, wine shops, press, or a question about a bottle.": "იმპორტიორები, ღვინის მაღაზიები, პრესა თუ კითხვა ბოთლზე.",
+    ". Online shops that have listed it include MORE Natural Wine (Berlin), Hop Burns & Black (London), The Cellar d’Or and Grand Wine Cellar (New York). To buy a bottle,": "-ის მეშვეობით. ონლაინ მაღაზიებიდან დასაბამი იყიდებოდა MORE Natural Wine-ში (ბერლინი), Hop Burns & Black-ში (ლონდონი), The Cellar d’Or-სა და Grand Wine Cellar-ში (ნიუ-იორკი). შესაძენად",
+    "write to us": "მოგვწერეთ ელფოსტაზე",
+    "Send us an email": "მოგვწერეთ ელფოსტაზე",
+    ", or message": ", ან მოგვწერეთ",
+    "Email us": "ელფოსტა",
+    "Bunches of an old Racha grape variety that carries a family name, still on the vine in November after the harvest": "რაჭული ძველი ჯიშის მტევნები, რომელიც გვარის სახელს ატარებს, ვაზზე ნოემბერში, რთველის შემდეგ",
+    "An old Racha variety with a family name, in November after the harvest": "რაჭული ძველი ჯიში გვარის სახელით, ნოემბერში, რთველის შემდეგ",
+    "Natural, organic wine from Georgia. Dasabami Wine Cellar · Tamarisi, Marneuli Municipality, Kvemo Kartli, Georgia. Photos from the Darsavelidze family, @dasabami and the people who tag us on Instagram, credited where shown; winter pruning and 2019 bottle photos from Dasabami’s Natural Wine Association profile. Press items link to their original sources; only the Culinary Backstreets line is a direct quote, the others are summaries. Please enjoy wine responsibly.": "ნატურალური, ორგანული ღვინო საქართველოდან. დასაბამის მარანი · თამარისი, მარნეულის მუნიციპალიტეტი, ქვემო ქართლი, საქართველო. ფოტოები: დარსაველიძეების ოჯახი, @dasabami და ისინი, ვინც Instagram-ზე გვნიშნავენ (ავტორები მითითებულია); ზამთრის გასხვლისა და 2019 წლის ბოთლის ფოტოები აღებულია დასაბამის პროფილიდან ბუნებრივი ღვინის ასოციაციის საიტზე. პრესის მასალები მიუთითებს ორიგინალ წყაროებზე; პირდაპირი ციტატაა მხოლოდ Culinary Backstreets-ის ფრაზა, დანარჩენი შეჯამებებია. მიირთვით ღვინო ზომიერად."
   }
 }

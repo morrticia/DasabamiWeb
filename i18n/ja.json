@@ -77,7 +77,7 @@
     ],
     [
       "ダサバミのワインはどこで買えますか？",
-      "トビリシでは、27 Wine Cellar & Shop と Sulico Wine Bar (ザンドゥケリ通り27番地)、 Dadi Wine Bar (自由広場近く、ダディアニ通り4番地) で扱っています。アメリカでは輸入元の Roni Selects を通じて購入できます。これまでに MORE Natural Wine (ベルリン)、Hop Burns & Black (ロンドン)、The Cellar d’Or と Grand Wine Cellar (ニューヨーク) などのオンラインショップで販売されましたが、2026年11月22日時点ではすべて売り切れでした。最新の在庫については、 zazabery@gmail.com へメールするか、Instagram の @dasabami までメッセージをお送りください。"
+      "トビリシでは、27 Wine Cellar & Shop と Sulico Wine Bar (ザンドゥケリ通り27番地)、Dadi Wine Bar (自由広場近く、ダディアニ通り4番地) で扱っています。アメリカでは輸入元の Roni Selects を通じて購入できます。これまでに MORE Natural Wine (ベルリン)、Hop Burns & Black (ロンドン)、The Cellar d’Or と Grand Wine Cellar (ニューヨーク) などのオンラインショップでも販売されてきました。ご購入は、メールでお問い合わせいただくか、Instagram の @dasabamiまでメッセージをお送りください。"
     ],
     [
       "「ダサバミ」とはどういう意味ですか？",
@@ -85,7 +85,7 @@
     ],
     [
       "ダサバミへの連絡方法は？",
-      "ザザ・ダルサヴェリゼへのメールは zazabery@gmail.com まで。または、Instagram の @dasabami までメッセージをお送りください。"
+      "メールでお問い合わせいただくか、Instagram の @dasabamiまでメッセージをお送りください。"
     ]
   ],
   "js": {
@@ -214,7 +214,7 @@
           "旅行",
           "行きたい"
         ],
-        "answer": "ダサバミはトビリシの南、タマリシ村にある小さな家族経営のワイナリーです。訪問をご希望の場合は、事前に zazabery@gmail.com または Instagram の @dasabami までご連絡ください。"
+        "answer": "ダサバミはトビリシの南、タマリシ村にある小さな家族経営のワイナリーです。訪問をご希望の場合は、事前にメールまたは Instagram の @dasabami までご連絡ください。"
       },
       "where": {
         "kw": [
@@ -380,7 +380,9 @@
         ],
         "faq": 3
       }
-    }
+    },
+    "copiedEmail": "メールアドレスをコピーしました",
+    "copyFailed": "コピーできませんでした。「メールを送る」をご利用ください。"
   },
   "strings": {
     "Skip to content": "本文へスキップ",
@@ -694,7 +696,7 @@
     "(27 Zandukeli St) and at": "(ザンドゥケリ通り27番地)、",
     "(4 Dadiani St, by Freedom Square), and in the United States through the importer": "(自由広場近く、ダディアニ通り4番地) で扱っています。アメリカでは輸入元の",
     ". Online shops that have listed it include MORE Natural Wine (Berlin), Hop Burns & Black (London), The Cellar d’Or and Grand Wine Cellar (New York); all were sold out on 22 November 2026. For current bottles, email": " を通じて購入できます。これまでに MORE Natural Wine (ベルリン)、Hop Burns & Black (ロンドン)、The Cellar d’Or と Grand Wine Cellar (ニューヨーク) などのオンラインショップで販売されましたが、2026年11月22日時点ではすべて売り切れでした。最新の在庫については、",
-    "or message": "へメールするか、Instagram の",
+    "or message": "いただくか、Instagram の",
     "on Instagram.": "までメッセージをお送りください。",
     "What does “Dasabami” mean?": "「ダサバミ」とはどういう意味ですか？",
     "Dasabami (დასაბამი) is Georgian for “the beginning” or “origin”.": "ダサバミ（დასაბამი）は、ジョージア語で「はじまり」「起源」を意味します。",
@@ -732,6 +734,19 @@
     "Qvevri in a Georgian vineyard · @funky_wine_beats": "ジョージアの畑のクヴェヴリ · @funky_wine_beats",
     "Zaza in the vineyard · Amber Georgia": "畑のザザ · Amber Georgia",
     "Rkatsiteli 2019 · Natural Wine Association": "ルカツィテリ 2019 · Natural Wine Association",
-    "Khikhvi 2018": "ヒフヴィ 2018"
+    "Khikhvi 2018": "ヒフヴィ 2018",
+    "Sold in many countries.": "世界各国で販売。",
+    "Shops around the world that have listed Dasabami. To buy a bottle, write to us.": "ダサバミを扱ってきた世界各地のショップです。ご購入はメールでお問い合わせください。",
+    "Write to us": "お問い合わせ",
+    "Write to us.": "メールでお問い合わせ。",
+    "Importers, wine shops, press, or a question about a bottle.": "輸入元、ワインショップ、メディアの方、ボトルについてのご質問も。",
+    ". Online shops that have listed it include MORE Natural Wine (Berlin), Hop Burns & Black (London), The Cellar d’Or and Grand Wine Cellar (New York). To buy a bottle,": " を通じて購入できます。これまでに MORE Natural Wine (ベルリン)、Hop Burns & Black (ロンドン)、The Cellar d’Or と Grand Wine Cellar (ニューヨーク) などのオンラインショップでも販売されてきました。ご購入は、",
+    "write to us": "メールでお問い合わせ",
+    "Send us an email": "メールでお問い合わせ",
+    ", or message": "いただくか、Instagram の",
+    "Email us": "メール",
+    "Bunches of an old Racha grape variety that carries a family name, still on the vine in November after the harvest": "家族の名を冠したラチャ地方の古い品種のブドウ。収穫後の11月、まだ樹に残る房",
+    "An old Racha variety with a family name, in November after the harvest": "家族の名を冠したラチャの古い品種。収穫後の11月に",
+    "Natural, organic wine from Georgia. Dasabami Wine Cellar · Tamarisi, Marneuli Municipality, Kvemo Kartli, Georgia. Photos from the Darsavelidze family, @dasabami and the people who tag us on Instagram, credited where shown; winter pruning and 2019 bottle photos from Dasabami’s Natural Wine Association profile. Press items link to their original sources; only the Culinary Backstreets line is a direct quote, the others are summaries. Please enjoy wine responsibly.": "ジョージアのナチュラル＆オーガニックワイン。Dasabami Wine Cellar · ジョージア、クヴェモ・カルトリ、マルネウリ自治体タマリシ。写真はダルサヴェリゼ家、@dasabami、そして Instagram でタグ付けしてくれた方々によるもので、クレジットは各所に記載しています。冬の剪定と2019年のボトルの写真は、Natural Wine Association のダサバミのプロフィールより。プレス項目は元の情報源にリンクしています。直接の引用は Culinary Backstreets の一文のみで、その他は要約です。お酒は20歳になってから。飲酒は適量を。"
   }
 }

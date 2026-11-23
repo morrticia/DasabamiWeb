@@ -49,7 +49,7 @@
   "faq": [
     [
       "Qu’est-ce que Dasabami ?",
-      "Dasabami (დასაბამი, « le commencement ») est une cave familiale de vin nature à Tamarisi, un village de la municipalité de Marneuli, en Kvemo Kartli (Géorgie). Elle a été fondée par le père du vigneron Zaza Darsavelidze et produit jusqu’à environ 3 000 bouteilles par an de vin nature et bio, élevé en qvevri, à partir d’un seul hectare."
+      "Dasabami (დასაბამი, « le commencement ») est une cave familiale de vin nature à Tamarisi, un village de la municipalité de Marneuli, en Kvemo Kartli (Géorgie). Elle a été fondée par le père du vigneron Zaza Darsavelidze et produit jusqu’à environ 3 000 bouteilles par an de vin nature et bio, élevé en qvevri, à partir d’un seul hectare."
     ],
     [
       "Qui fait le vin Dasabami ?",
@@ -61,31 +61,31 @@
     ],
     [
       "Quels cépages Dasabami cultive-t-il ?",
-      "Quatre cépages autochtones géorgiens : le Rkatsiteli, le Mtsvane et le Khikhvi, vinifiés en vins ambrés, et le Tavkveri, un rouge. Les vieilles vignes ont environ 70 ans ; le Khikhvi a été planté vers 2009."
+      "Quatre cépages autochtones géorgiens : le Rkatsiteli, le Mtsvane et le Khikhvi, vinifiés en vins ambrés, et le Tavkveri, un rouge. Les vieilles vignes ont environ 70 ans ; le Khikhvi a été planté vers 2009."
     ],
     [
       "Comment le vin Dasabami est-il fait ?",
-      "En qvevri, des jarres en argile enterrées dans le sol. Les raisins fermentent avec des levures indigènes ; les raisins blancs restent sur leurs peaux de trois à douze mois et prennent une teinte ambrée. Les vins ne sont ni collés ni filtrés, et sont mis en bouteille sans SO₂ ajouté. L’un des qvevri de la famille a plus d’un siècle."
+      "En qvevri, des jarres en argile enterrées dans le sol. Les raisins fermentent avec des levures indigènes ; les raisins blancs restent sur leurs peaux de trois à douze mois et prennent une teinte ambrée. Les vins ne sont ni collés ni filtrés, et sont mis en bouteille sans SO₂ ajouté. L’un des qvevri de la famille a plus d’un siècle."
     ],
     [
       "Dasabami est-il un vin nature et bio ?",
-      "Oui. Dasabami est un vin naturel géorgien, un vrai vin nature : la vigne est cultivée en bio, les fiches techniques de l’importateur indiquent l’absence de sulfites ajoutés, des levures indigènes, ni collage ni filtration, et Dasabami est membre de la Natural Wine Association de Géorgie."
+      "Oui. Dasabami est un vin naturel géorgien, un vrai vin nature : la vigne est cultivée en bio, les fiches techniques de l’importateur indiquent l’absence de sulfites ajoutés, des levures indigènes, ni collage ni filtration, et Dasabami est membre de la Natural Wine Association de Géorgie."
     ],
     [
       "Combien de bouteilles Dasabami produit-il ?",
-      "Jusqu’à environ 3 000 bouteilles par an au total. Chaque vin est un petit lot, de 180 bouteilles (Tavkveri 2020) à 900 bouteilles (Rkatsiteli 2020)."
+      "Jusqu’à environ 3 000 bouteilles par an au total. Chaque vin est un petit lot, de 180 bouteilles (Tavkveri 2020) à 900 bouteilles (Rkatsiteli 2020)."
     ],
     [
       "Où acheter le vin Dasabami ?",
-      "À Tbilissi, chez 27 Wine Cellar & Shop et au Sulico Wine Bar (27, rue Zandukeli) et au Dadi Wine Bar (4, rue Dadiani, près de la place de la Liberté), et aux États-Unis via l’importateur Roni Selects. Parmi les boutiques en ligne qui l’ont proposé figurent MORE Natural Wine (Berlin), Hop Burns & Black (Londres), The Cellar d’Or et Grand Wine Cellar (New York) ; le 22 novembre 2026, il était épuisé partout. Pour les bouteilles disponibles, écrivez à zazabery@gmail.com ou envoyez un message à @dasabami sur Instagram."
+      "À Tbilissi, chez 27 Wine Cellar & Shop et au Sulico Wine Bar (27, rue Zandukeli) et au Dadi Wine Bar (4, rue Dadiani, près de la place de la Liberté), et aux États-Unis via l’importateur Roni Selects. Parmi les boutiques en ligne qui l’ont proposé figurent MORE Natural Wine (Berlin), Hop Burns & Black (Londres), The Cellar d’Or et Grand Wine Cellar (New York). Pour acheter une bouteille, écrivez-nous ou envoyez un message à @dasabami sur Instagram."
     ],
     [
       "Que signifie « Dasabami » ?",
-      "Dasabami (დასაბამი) signifie « le commencement » ou « l’origine » en géorgien."
+      "Dasabami (დასაბამი) signifie « le commencement » ou « l’origine » en géorgien."
     ],
     [
       "Comment contacter Dasabami ?",
-      "Écrivez à Zaza Darsavelidze à l’adresse zazabery@gmail.com, ou envoyez un message à @dasabami sur Instagram."
+      "Envoyez-nous un e-mail, ou envoyez un message à @dasabami sur Instagram."
     ]
   ],
   "js": {
@@ -208,7 +208,7 @@
           "séjour",
           "se rendre"
         ],
-        "answer": "Dasabami est une petite cave familiale à Tamarisi, au sud de Tbilissi. Si vous souhaitez venir, écrivez d’abord à zazabery@gmail.com ou à @dasabami sur Instagram."
+        "answer": "Dasabami est une petite cave familiale à Tamarisi, au sud de Tbilissi. Si vous souhaitez venir, écrivez-nous d’abord par e-mail ou à @dasabami sur Instagram."
       },
       "where": {
         "kw": [
@@ -377,7 +377,9 @@
         ],
         "faq": 3
       }
-    }
+    },
+    "copiedEmail": "Adresse e-mail copiée",
+    "copyFailed": "Copie impossible. Utilisez « Envoyer un e-mail »."
   },
   "strings": {
     "Skip to content": "Aller au contenu",
@@ -697,6 +699,19 @@
     ".": " de Géorgie.",
     "The Dasabami vineyard, Lower Kartli": "La vigne de Dasabami, Basse-Kartlie",
     "Qvevri in a Georgian vineyard · @funky_wine_beats": "Qvevri dans une vigne géorgienne · @funky_wine_beats",
-    "Zaza in the vineyard · Amber Georgia": "Zaza dans la vigne · Amber Georgia"
+    "Zaza in the vineyard · Amber Georgia": "Zaza dans la vigne · Amber Georgia",
+    "Sold in many countries.": "Vendu dans de nombreux pays.",
+    "Shops around the world that have listed Dasabami. To buy a bottle, write to us.": "Des boutiques du monde entier qui ont proposé Dasabami. Pour acheter une bouteille, écrivez-nous.",
+    "Write to us": "Écrivez-nous",
+    "Write to us.": "Écrivez-nous.",
+    "Importers, wine shops, press, or a question about a bottle.": "Importateurs, cavistes, presse, ou une question sur une bouteille.",
+    ". Online shops that have listed it include MORE Natural Wine (Berlin), Hop Burns & Black (London), The Cellar d’Or and Grand Wine Cellar (New York). To buy a bottle,": ". Parmi les boutiques en ligne qui l’ont proposé figurent MORE Natural Wine (Berlin), Hop Burns & Black (Londres), The Cellar d’Or et Grand Wine Cellar (New York). Pour acheter une bouteille,",
+    "write to us": "écrivez-nous",
+    "Send us an email": "Envoyez-nous un e-mail",
+    ", or message": ", ou envoyez un message à",
+    "Email us": "Nous écrire",
+    "Bunches of an old Racha grape variety that carries a family name, still on the vine in November after the harvest": "Grappes d’un vieux cépage de Ratcha qui porte un nom de famille, encore sur le cep en novembre, après les vendanges",
+    "An old Racha variety with a family name, in November after the harvest": "Un vieux cépage de Ratcha portant un nom de famille, en novembre, après les vendanges",
+    "Natural, organic wine from Georgia. Dasabami Wine Cellar · Tamarisi, Marneuli Municipality, Kvemo Kartli, Georgia. Photos from the Darsavelidze family, @dasabami and the people who tag us on Instagram, credited where shown; winter pruning and 2019 bottle photos from Dasabami’s Natural Wine Association profile. Press items link to their original sources; only the Culinary Backstreets line is a direct quote, the others are summaries. Please enjoy wine responsibly.": "Vin nature et bio de Géorgie. Dasabami Wine Cellar · Tamarisi, municipalité de Marneuli, Kvemo Kartli, Géorgie. Photos de la famille Darsavelidze, de @dasabami et des personnes qui nous identifient sur Instagram, créditées lorsque c’est indiqué ; les photos de la taille d’hiver et de la bouteille 2019 proviennent du profil de Dasabami sur le site de la Natural Wine Association. Les extraits de presse renvoient à leurs sources ; seule la phrase de Culinary Backstreets est une citation directe, les autres sont des résumés. L’abus d’alcool est dangereux pour la santé, à consommer avec modération."
   }
 }
