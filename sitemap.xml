@@ -1,18 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml"
-        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://dasabami.co/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/"/>
     <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
     <image:image><image:loc>https://dasabami.co/assets/img/hero-zaza-lg.webp</image:loc><image:title>Winemaker Zaza Darsavelidze in the Dasabami vineyard, Tamarisi, Georgia</image:title></image:image>
     <image:image><image:loc>https://dasabami.co/assets/img/old-vine-lg.webp</image:loc><image:title>A 70-year-old vine in the Dasabami vineyard</image:title></image:image>
     <image:image><image:loc>https://dasabami.co/assets/img/zaza-cat-lg.webp</image:loc><image:title>Zaza Darsavelidze on the vine pergola</image:title></image:image>
@@ -28,50 +26,425 @@
   </url>
   <url>
     <loc>https://dasabami.co/ka/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/"/>
     <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://dasabami.co/ja/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/"/>
     <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://dasabami.co/es/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/"/>
     <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://dasabami.co/fr/</loc>
-    <lastmod>2026-11-22</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
     <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/"/>
     <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/"/>
     <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/"/>
     <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/"/>
     <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/wines/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ka/wines/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ja/wines/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/es/wines/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/fr/wines/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/wines/rkatsiteli/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/rkatsiteli/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://dasabami.co/assets/img/rkatsiteli-2019-lg.webp</image:loc><image:title>Bottle of Dasabami Rkatsiteli 2019 amber wine with a painted art label</image:title></image:image>
+    <image:image><image:loc>https://dasabami.co/assets/img/rkatsiteli-2016-lg.webp</image:loc><image:title>Dasabami Rkatsiteli 2016 bottle beside a glass of amber wine</image:title></image:image>
+    <image:image><image:loc>https://dasabami.co/assets/img/lineup-lg.webp</image:loc><image:title>A line-up of natural wines including Dasabami Rkatsiteli 2021</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ka/wines/rkatsiteli/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/rkatsiteli/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ja/wines/rkatsiteli/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/rkatsiteli/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/es/wines/rkatsiteli/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/rkatsiteli/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/fr/wines/rkatsiteli/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/rkatsiteli/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/rkatsiteli/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/wines/mtsvane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/mtsvane/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://dasabami.co/assets/img/mtsvane-2017-lg.webp</image:loc><image:title>Bottle of Dasabami Mtsvane 2017 amber wine on a white background</image:title></image:image>
+    <image:image><image:loc>https://dasabami.co/assets/img/mtsvane-2017-glasses-lg.webp</image:loc><image:title>Two glasses of amber Mtsvane 2017 beside the bottle on a tree stump</image:title></image:image>
+    <image:image><image:loc>https://dasabami.co/assets/img/vineyard-canopy-lg.webp</image:loc><image:title>Old Dasabami vines with bunches of white grapes under a blue sky</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ka/wines/mtsvane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/mtsvane/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ja/wines/mtsvane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/mtsvane/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/es/wines/mtsvane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/mtsvane/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/fr/wines/mtsvane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/mtsvane/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/wines/khikhvi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/khikhvi/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://dasabami.co/assets/img/khikhvi-tasting-lg.webp</image:loc><image:title>Dasabami Khikhvi bottle and a glass of amber wine at a tasting</image:title></image:image>
+    <image:image><image:loc>https://dasabami.co/assets/img/khikhvi-2018-lg.webp</image:loc><image:title>Bottle of Dasabami Khikhvi 2018 amber wine in a wine shop</image:title></image:image>
+    <image:image><image:loc>https://dasabami.co/assets/img/shops/more-khikhvi-2019.webp</image:loc><image:title>Dasabami Khikhvi 2019 bottle with a painted label</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ka/wines/khikhvi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/khikhvi/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ja/wines/khikhvi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/khikhvi/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/es/wines/khikhvi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/khikhvi/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/fr/wines/khikhvi/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/khikhvi/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/khikhvi/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/wines/tavkveri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/tavkveri/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://dasabami.co/assets/img/tavkveri-2019-lg.webp</image:loc><image:title>Bottle of Dasabami Tavkveri 2019 red wine with the gold grape-cluster label</image:title></image:image>
+    <image:image><image:loc>https://dasabami.co/assets/img/tavkveri-2017-lg.webp</image:loc><image:title>Bottle of Dasabami Tavkveri 2017 red wine on a black background</image:title></image:image>
+    <image:image><image:loc>https://dasabami.co/assets/img/tavkveri-2018-lg.webp</image:loc><image:title>Dasabami Tavkveri 2018 bottle with a glass of red wine outdoors</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ka/wines/tavkveri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/tavkveri/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ja/wines/tavkveri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/tavkveri/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/es/wines/tavkveri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/tavkveri/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/fr/wines/tavkveri/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/tavkveri/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/tavkveri/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/wines/rkatsiteli-mtsvane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/rkatsiteli-mtsvane/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image><image:loc>https://dasabami.co/assets/img/zaza-27-cellar-lg.webp</image:loc><image:title>Zaza behind a row of new Dasabami bottles with painted labels at 27 Wine Cellar &amp; Shop, Tbilisi</image:title></image:image>
+    <image:image><image:loc>https://dasabami.co/assets/img/lineup-lg.webp</image:loc><image:title>A line-up of natural wines including Dasabami bottles</image:title></image:image>
+    <image:image><image:loc>https://dasabami.co/assets/img/vineyard-canopy-lg.webp</image:loc><image:title>Old Dasabami vines with bunches of white grapes</image:title></image:image>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ka/wines/rkatsiteli-mtsvane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/rkatsiteli-mtsvane/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/ja/wines/rkatsiteli-mtsvane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/rkatsiteli-mtsvane/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/es/wines/rkatsiteli-mtsvane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/rkatsiteli-mtsvane/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://dasabami.co/fr/wines/rkatsiteli-mtsvane/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://dasabami.co/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ka" href="https://dasabami.co/ka/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://dasabami.co/ja/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://dasabami.co/es/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://dasabami.co/fr/wines/rkatsiteli-mtsvane/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://dasabami.co/wines/rkatsiteli-mtsvane/"/>
+    <lastmod>2026-11-23</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
 </urlset>

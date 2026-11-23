@@ -42,6 +42,63 @@ Français : Dasabami (დასაბამი, « le commencement ») est la ca
 - Unfined, unfiltered, no added SO2 (per importer tech sheets).
 - Production: up to about 3,000 bottles a year in total; individual wines range from 180 to 900 bottles.
 
+## Wine pages
+
+### Dasabami Rkatsiteli (რქაწითელი) — https://dasabami.co/wines/rkatsiteli/
+
+Georgia’s great white grape, made the old way: fermented on its skins in qvevri until it turns amber. From the family’s 70-year-old vines in Tamarisi.
+
+- Grape: Rkatsiteli; vines: About 70 years old; skin contact: 4–6 months; production: 800–900 bottles
+- Earlier vintages: Rkatsiteli 2010 (five years in qvevri), 2012–2019 and 2021. Older bottles such as Rkatsiteli 2014 have been poured at 27 Wine Cellar & Shop in Tbilisi.
+- Rkatsiteli is one of Georgia’s oldest grape varieties and its most widely planted white. The name is usually translated as “red stem”. It keeps high natural acidity even in warm years, which is why it carries long skin contact so well.
+- Fermented on its skins in qvevri, Rkatsiteli turns amber and takes on grip from the tannins in the skins. Amber Rkatsiteli is often described with notes of dried apricot, quince, black tea and walnut.
+- At Dasabami, Rkatsiteli comes from vines about 70 years old in Tamarisi, Kvemo Kartli. The grapes ferment with their own ambient yeasts in clay qvevri buried in the earth, including the family’s century-old qvevri, and recent vintages stay on their skins for four to six months.
+- It is the family’s largest wine, around 800 to 900 bottles a year, bottled unfined, unfiltered and with no added SO₂. Recent vintages carry a painted art label.
+
+### Dasabami Mtsvane (მწვანე) — https://dasabami.co/wines/mtsvane/
+
+An aromatic white grape from eastern Georgia, made as an amber wine: about six months on its skins in qvevri, in lots of a few hundred bottles.
+
+- Grape: Mtsvane; vines: About 70 years old; skin contact: About 6 months; production: 360–400 bottles
+- Earlier vintages: Mtsvane 2017, an amber white, and earlier vintages.
+- Mtsvane means “green” in Georgian. Mtsvane Kakhuri is an aromatic white variety from Kakheti, long grown and blended alongside Rkatsiteli in eastern Georgia.
+- Made on its skins in qvevri, Mtsvane gives an amber wine that is often described as floral, with stone fruit, citrus and a mineral edge.
+- Dasabami’s Mtsvane grows among the family’s old vines in Tamarisi; the vineyard registry lists both Mtsvane Kakhuri and Mtsvane Goruli. Each recent vintage spent about six months on its skins and then three to eight months in qvevri.
+- Lots are small, 360 to 400 bottles, and every bottle is unfined, unfiltered and made with no added SO₂.
+
+### Dasabami Khikhvi (ხიხვი) — https://dasabami.co/wines/khikhvi/
+
+A rare white grape from Kakheti, made as a deep amber wine. Planted at Dasabami around 2009, it gives the family’s most powerful wine.
+
+- Grape: Khikhvi; vines: Planted around 2009; skin contact: 4–12 months; production: 300–600 bottles
+- Earlier vintages: Khikhvi 2016 (seven months on its skins), 2018 and 2019.
+- Khikhvi is a rare Georgian white grape from Kakheti. It came close to disappearing in the Soviet era, when vineyards were replanted with higher-yielding varieties, and small growers have brought it back.
+- Khikhvi ripens to high sugar levels, so its wines can be rich and strong. It is often described as aromatic, with honey, yellow fruit and spice.
+- At Dasabami, Khikhvi is the younger planting: the vines were about 12 years old in 2021. Skin contact has ranged from four months to a full year; Khikhvi 2021 spent twelve months on its skins.
+- Recent vintages reach 14.75–15% alcohol, in lots of 300 to 600 bottles, unfined, unfiltered and with no added SO₂.
+
+### Dasabami Tavkveri (თავკვერი) — https://dasabami.co/wines/tavkveri/
+
+Kartli’s own red grape and Dasabami’s only red: a short time on its skins, then months of rest in qvevri.
+
+- Grape: Tavkveri; vines: About 70 years old; skin contact: 45 days; production: 180 bottles (2020)
+- Earlier vintages: Tavkveri 2017, 2018 and 2019.
+- Tavkveri is an indigenous red grape of Kartli, the region around Tbilisi. It has only female flowers, so it needs other varieties growing nearby to pollinate it.
+- Tavkveri gives fresh, light-coloured reds and is also used for rosé. Its wines are often described with red berries and gentle tannins.
+- Dasabami’s Tavkveri comes from the family’s 70-year-old vines in Tamarisi. In 2020 the grapes spent 45 days on their skins and then nine months in qvevri.
+- Just 180 bottles were made, unfined, unfiltered and with no added SO₂. Earlier vintages were also dry reds made with skin-contact fermentation in qvevri.
+
+### Dasabami Rkatsiteli–Mtsvane (რქაწითელი–მწვანე) — https://dasabami.co/wines/rkatsiteli-mtsvane/
+
+The classic eastern Georgian pairing: 80% Rkatsiteli and 20% Mtsvane, made as an amber wine in qvevri.
+
+- Grape: 80% Rkatsiteli, 20% Mtsvane; vines: About 70 years old; skin contact: 3 months (2024); production: 800 bottles (2024)
+- Rkatsiteli brings structure and lively acidity; Mtsvane adds aromatics. The two grapes have long been grown and blended together in eastern Georgia.
+- The 2024 spent three months on its skins and four months in qvevri, at 12% alcohol; 800 bottles were made, unfined, unfiltered and with no added SO₂.
+- A 2025 Rkatsiteli–Mtsvane has also been poured at 27 Wine Cellar & Shop in Tbilisi.
+
+Translated wine pages: https://dasabami.co/ka/wines/ · https://dasabami.co/ja/wines/ · https://dasabami.co/es/wines/ · https://dasabami.co/fr/wines/
+
 ## Tech specs of recent releases (source: Roni Selects tech sheets)
 
 | Wine | On skins | In qvevri | Alcohol | Bottles |

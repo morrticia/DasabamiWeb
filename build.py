@@ -94,6 +94,7 @@ def jsonld(lang, T):
     for name, cat, grape, skins, qv, abv, n in WINES:
         products.append({
             "@type": "Product", "name": f"Dasabami {name}",
+            "url": u + "wines/" + ("rkatsiteli-mtsvane" if "–" in name else name.split()[0].lower()) + "/",
             "category": L["amber_wine"] if cat == "amber" else L["red_wine"],
             "brand": {"@id": wid}, "manufacturer": {"@id": wid}, "countryOfOrigin": "GE",
             "keywords": L["keywords"],
@@ -360,5 +361,14 @@ def build():
         print(f"{lang}  -> {dest}  ({len(T['strings'])} strings, {len(missing)} kept in English)")
 
 
+def css_version():
+    m = re.search(r'style\.css\?v=(\w+)', open(os.path.join(ROOT, "index.html"), encoding="utf-8").read())
+    return m.group(1) if m else "1"
+
+
 if __name__ == "__main__":
     build()
+    import sys
+    sys.path.insert(0, ROOT)
+    from build_wines import build_wines
+    build_wines(ROOT, SITE, LANGS, LOCALE, css_version())

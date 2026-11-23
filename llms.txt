@@ -21,10 +21,16 @@ Key facts:
 
 - [Home](https://dasabami.co/): story, wines, tech specs, qvevri method, press, where to find, FAQ, contact
 - [Full facts for language models](https://dasabami.co/llms-full.txt): complete plain-text fact sheet with tech specs and sources
-- [ქართული (Georgian)](https://dasabami.co/ka/): დასაბამი — ნატურალური, ორგანული ქართული ღვინო
-- [日本語 (Japanese)](https://dasabami.co/ja/): ダサバミ — ジョージアのナチュラルワイン・オーガニックワイン
-- [Español (Spanish)](https://dasabami.co/es/): Dasabami — vino natural y ecológico de Georgia
-- [Français (French)](https://dasabami.co/fr/): Dasabami — vin nature et bio de Géorgie
+- [All wines](https://dasabami.co/wines/): the Dasabami range, one page per grape
+- [Dasabami Rkatsiteli](https://dasabami.co/wines/rkatsiteli/): Georgia’s great white grape, made the old way: fermented on its skins in qvevri until it turns amber. From the family’s 70-year-old vines in Tamarisi.
+- [Dasabami Mtsvane](https://dasabami.co/wines/mtsvane/): An aromatic white grape from eastern Georgia, made as an amber wine: about six months on its skins in qvevri, in lots of a few hundred bottles.
+- [Dasabami Khikhvi](https://dasabami.co/wines/khikhvi/): A rare white grape from Kakheti, made as a deep amber wine. Planted at Dasabami around 2009, it gives the family’s most powerful wine.
+- [Dasabami Tavkveri](https://dasabami.co/wines/tavkveri/): Kartli’s own red grape and Dasabami’s only red: a short time on its skins, then months of rest in qvevri.
+- [Dasabami Rkatsiteli–Mtsvane](https://dasabami.co/wines/rkatsiteli-mtsvane/): The classic eastern Georgian pairing: 80% Rkatsiteli and 20% Mtsvane, made as an amber wine in qvevri.
+- [ქართული (Georgian)](https://dasabami.co/ka/): დასაბამი — ნატურალური, ორგანული ქართული ღვინო; ღვინოები: https://dasabami.co/ka/wines/
+- [日本語 (Japanese)](https://dasabami.co/ja/): ダサバミ — ジョージアのナチュラルワイン・オーガニックワイン; ワイン一覧: https://dasabami.co/ja/wines/
+- [Español (Spanish)](https://dasabami.co/es/): Dasabami — vino natural y ecológico de Georgia; vinos: https://dasabami.co/es/wines/
+- [Français (French)](https://dasabami.co/fr/): Dasabami — vin nature et bio de Géorgie ; vins : https://dasabami.co/fr/wines/
 
 ## In other languages
 

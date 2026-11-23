@@ -1,0 +1,334 @@
+{
+  "ui": {
+    "skip": "Skip to content",
+    "home": "Dasabami",
+    "wines": "Wines",
+    "all_wines": "All wines",
+    "back_home": "Back to Dasabami",
+    "write_to_us": "Write to us",
+    "send_email": "Send an email",
+    "copy": "Copy address",
+    "copied": "Email address copied",
+    "facts_title": "At a glance",
+    "grape_title": "The grape",
+    "ours_title": "How Dasabami makes it",
+    "vintages_title": "Recent vintages",
+    "earlier_title": "Earlier vintages",
+    "on_skins": "On skins",
+    "in_qvevri": "In qvevri",
+    "alcohol": "Alcohol",
+    "bottles": "Bottles",
+    "months": "months",
+    "days": "days",
+    "source": "Source: Roni Selects tech sheets (US importer). Every wine: ambient yeast, fermented and aged in qvevri, unfined, unfiltered, no added SO₂.",
+    "said_title": "Said about it",
+    "faq_title": "Questions",
+    "other_title": "The other wines",
+    "contact_eyebrow": "Contact",
+    "contact_title": "Write to us.",
+    "contact_text": "Importers, wine shops, press, or a question about a bottle.",
+    "f_grape": "Grape",
+    "f_style": "Style",
+    "f_vines": "Vines",
+    "f_vessel": "Vessel",
+    "f_skins": "Skin contact",
+    "f_lot": "Production",
+    "vessel_value": "Qvevri, ambient yeast",
+    "style_amber": "Amber wine",
+    "style_red": "Red wine",
+    "style_blend": "Amber blend",
+    "more": "More about",
+    "language": "Language",
+    "footer_line": "Natural, organic wine from Georgia. Dasabami Wine Cellar · Tamarisi, Marneuli Municipality, Kvemo Kartli, Georgia.",
+    "email_us": "Email us",
+    "instagram": "Instagram",
+    "read": "Read",
+    "copy_failed": "Could not copy. Use “Send an email” instead."
+  },
+  "hub": {
+    "title": "Dasabami Wines | Natural Amber & Red Qvevri Wines from Georgia",
+    "description": "Dasabami wines: Rkatsiteli, Mtsvane, Khikhvi, Tavkveri and a Rkatsiteli–Mtsvane blend. Natural, organic qvevri wine from a family hectare in Kvemo Kartli.",
+    "eyebrow": "Natural Georgian wines",
+    "h1": "The wines.",
+    "lede": "Four indigenous grapes from one family hectare in Tamarisi, Kvemo Kartli. Three become amber wines, one is red, and there is a Rkatsiteli–Mtsvane blend. All ferment in qvevri with ambient yeasts and are bottled unfined, unfiltered, with no added SO₂."
+  },
+  "wines": {
+    "rkatsiteli": {
+      "title": "Dasabami Rkatsiteli | Amber Qvevri Wine from Kvemo Kartli, Georgia",
+      "description": "Dasabami Rkatsiteli: an amber natural wine from 70-year-old vines in Tamarisi, Kvemo Kartli. Fermented on its skins in qvevri, unfined, unfiltered, no added SO₂.",
+      "lede": "Georgia’s great white grape, made the old way: fermented on its skins in qvevri until it turns amber. From the family’s 70-year-old vines in Tamarisi.",
+      "grape": [
+        "Rkatsiteli is one of Georgia’s oldest grape varieties and its most widely planted white. The name is usually translated as “red stem”. It keeps high natural acidity even in warm years, which is why it carries long skin contact so well.",
+        "Fermented on its skins in qvevri, Rkatsiteli turns amber and takes on grip from the tannins in the skins. Amber Rkatsiteli is often described with notes of dried apricot, quince, black tea and walnut."
+      ],
+      "ours": [
+        "At Dasabami, Rkatsiteli comes from vines about 70 years old in Tamarisi, Kvemo Kartli. The grapes ferment with their own ambient yeasts in clay qvevri buried in the earth, including the family’s century-old qvevri, and recent vintages stay on their skins for four to six months.",
+        "It is the family’s largest wine, around 800 to 900 bottles a year, bottled unfined, unfiltered and with no added SO₂. Recent vintages carry a painted art label."
+      ],
+      "facts": {
+        "vines": "About 70 years old",
+        "skins": "4–6 months",
+        "lot": "800–900 bottles",
+        "grape": "Rkatsiteli"
+      },
+      "earlier": "Rkatsiteli 2010 (five years in qvevri), 2012–2019 and 2021. Older bottles such as Rkatsiteli 2014 have been poured at 27 Wine Cellar & Shop in Tbilisi.",
+      "said": [
+        {
+          "text": "this Rkatsiteli she selected for us was divine.",
+          "by": "Paul Rimple, Culinary Backstreets",
+          "url": "https://culinarybackstreets.com/stories/tbilisi/vino-underground-2",
+          "quote": true
+        },
+        {
+          "text": "The 2010 Rkatsiteli, five years in qvevri: silky and amber-gold, with cloudberry and sea buckthorn, and superb with cheese.",
+          "by": "Göran, Raisin community review",
+          "url": "https://www.raisin.digital/en/explore/georgia/kvemo-kartli/natural-winemakers/zaza-darsavelidze-dasabami-7403/wines/oranges/dasabami-38910/",
+          "quote": false
+        }
+      ],
+      "faq": [
+        [
+          "What is Dasabami Rkatsiteli?",
+          "An amber (skin-contact) natural wine from the Rkatsiteli grape, made by the Darsavelidze family in Tamarisi, Kvemo Kartli, Georgia. It ferments in qvevri with ambient yeasts and is bottled unfined, unfiltered and with no added SO₂."
+        ],
+        [
+          "How long does Dasabami Rkatsiteli stay on its skins?",
+          "Recent vintages spend four to six months on their skins in qvevri: six months for the 2020 and four months for the 2022."
+        ],
+        [
+          "How many bottles of Dasabami Rkatsiteli are made?",
+          "Around 800 to 900 bottles a year: 900 in 2020 and 800 in 2022."
+        ],
+        [
+          "What food goes with amber Rkatsiteli?",
+          "Its grip and acidity suit Georgian food such as walnut dishes, grilled vegetables and khachapuri, and aged cheeses."
+        ]
+      ],
+      "alts": {
+        "rkatsiteli-2019": "Bottle of Dasabami Rkatsiteli 2019 amber wine with a painted art label",
+        "rkatsiteli-2016": "Dasabami Rkatsiteli 2016 bottle beside a glass of amber wine",
+        "lineup": "A line-up of natural wines including Dasabami Rkatsiteli 2021"
+      },
+      "captions": {
+        "rkatsiteli-2016": "Rkatsiteli 2016 · photo @alevalente91",
+        "lineup": "Rkatsiteli 2021 · photo @nika.jei"
+      },
+      "name": "Rkatsiteli",
+      "geo": "რქაწითელი"
+    },
+    "mtsvane": {
+      "title": "Dasabami Mtsvane | Amber Qvevri Wine from Kvemo Kartli, Georgia",
+      "description": "Dasabami Mtsvane: an aromatic Georgian white grape made as an amber natural wine, about six months on its skins in qvevri. Small lots of 360–400 bottles.",
+      "lede": "An aromatic white grape from eastern Georgia, made as an amber wine: about six months on its skins in qvevri, in lots of a few hundred bottles.",
+      "grape": [
+        "Mtsvane means “green” in Georgian. Mtsvane Kakhuri is an aromatic white variety from Kakheti, long grown and blended alongside Rkatsiteli in eastern Georgia.",
+        "Made on its skins in qvevri, Mtsvane gives an amber wine that is often described as floral, with stone fruit, citrus and a mineral edge."
+      ],
+      "ours": [
+        "Dasabami’s Mtsvane grows among the family’s old vines in Tamarisi; the vineyard registry lists both Mtsvane Kakhuri and Mtsvane Goruli. Each recent vintage spent about six months on its skins and then three to eight months in qvevri.",
+        "Lots are small, 360 to 400 bottles, and every bottle is unfined, unfiltered and made with no added SO₂."
+      ],
+      "facts": {
+        "vines": "About 70 years old",
+        "skins": "About 6 months",
+        "lot": "360–400 bottles",
+        "grape": "Mtsvane"
+      },
+      "earlier": "Mtsvane 2017, an amber white, and earlier vintages.",
+      "said": [],
+      "faq": [
+        [
+          "What is Dasabami Mtsvane?",
+          "An amber natural wine from the Mtsvane grape, made by the Darsavelidze family in Tamarisi, Kvemo Kartli, Georgia, fermented on its skins in qvevri with ambient yeasts."
+        ],
+        [
+          "How long does Dasabami Mtsvane stay on its skins?",
+          "About six months, then three to eight months in qvevri: 2019 six months, 2021 eight months and 2022 three months in qvevri."
+        ],
+        [
+          "How many bottles of Dasabami Mtsvane are made?",
+          "360 to 400 bottles per vintage: 360 in 2019 and 2021, 400 in 2022."
+        ],
+        [
+          "What food goes with amber Mtsvane?",
+          "Its floral, fresh style suits lighter dishes: grilled fish, herbs, fresh cheeses and pkhali, the Georgian vegetable and walnut pâtés."
+        ]
+      ],
+      "alts": {
+        "mtsvane-2017": "Bottle of Dasabami Mtsvane 2017 amber wine on a white background",
+        "mtsvane-2017-glasses": "Two glasses of amber Mtsvane 2017 beside the bottle on a tree stump",
+        "vineyard-canopy": "Old Dasabami vines with bunches of white grapes under a blue sky"
+      },
+      "captions": {
+        "mtsvane-2017-glasses": "Mtsvane 2017 · photo @olaf.schindler",
+        "vineyard-canopy": "White grapes on the old vines in Tamarisi"
+      },
+      "name": "Mtsvane",
+      "geo": "მწვანე"
+    },
+    "khikhvi": {
+      "title": "Dasabami Khikhvi | Rare Amber Qvevri Wine from Georgia",
+      "description": "Dasabami Khikhvi: a rare Georgian white grape made as a deep amber natural wine, four to twelve months on its skins in qvevri. Small lots from Kvemo Kartli.",
+      "lede": "A rare white grape from Kakheti, made as a deep amber wine. Planted at Dasabami around 2009, it gives the family’s most powerful wine.",
+      "grape": [
+        "Khikhvi is a rare Georgian white grape from Kakheti. It came close to disappearing in the Soviet era, when vineyards were replanted with higher-yielding varieties, and small growers have brought it back.",
+        "Khikhvi ripens to high sugar levels, so its wines can be rich and strong. It is often described as aromatic, with honey, yellow fruit and spice."
+      ],
+      "ours": [
+        "At Dasabami, Khikhvi is the younger planting: the vines were about 12 years old in 2021. Skin contact has ranged from four months to a full year; Khikhvi 2021 spent twelve months on its skins.",
+        "Recent vintages reach 14.75–15% alcohol, in lots of 300 to 600 bottles, unfined, unfiltered and with no added SO₂."
+      ],
+      "facts": {
+        "vines": "Planted around 2009",
+        "skins": "4–12 months",
+        "lot": "300–600 bottles",
+        "grape": "Khikhvi"
+      },
+      "earlier": "Khikhvi 2016 (seven months on its skins), 2018 and 2019.",
+      "said": [
+        {
+          "text": "Hamburg’s natural wine shop filed the Khikhvi 2018 under high-energy, vibrant and deep.",
+          "by": "Skin Contact, Hamburg",
+          "url": "https://web.archive.org/web/20250427201607/https://skincontact.com/wines/dasabami/khikhvi-2018/?body=medium&style=deep&type=orange",
+          "quote": false
+        },
+        {
+          "text": "The 2016, seven months on its skins and tasted before it was even labelled: a great wine.",
+          "by": "Raisin community review",
+          "url": "https://www.raisin.digital/en/explore/georgia/kvemo-kartli/natural-winemakers/zaza-darsavelidze-dasabami-7403/wines/oranges/khikhvi-18832/",
+          "quote": false
+        },
+        {
+          "text": "The highest-rated Dasabami wine on Vivino, at 4.1.",
+          "by": "Vivino community ratings",
+          "url": "https://www.vivino.com/en/wineries/dasabami",
+          "quote": false
+        }
+      ],
+      "faq": [
+        [
+          "What is Dasabami Khikhvi?",
+          "An amber natural wine from Khikhvi, a rare white grape from Kakheti, made by the Darsavelidze family in Tamarisi, Kvemo Kartli, Georgia, fermented on its skins in qvevri with ambient yeasts."
+        ],
+        [
+          "Why is Dasabami Khikhvi so strong?",
+          "Khikhvi ripens to high sugar levels. Recent vintages are 14.75% (2024) and 15% (2022) alcohol."
+        ],
+        [
+          "How long does Dasabami Khikhvi stay on its skins?",
+          "Four to twelve months: four months for 2022 and 2024, a full year for 2021."
+        ],
+        [
+          "How many bottles of Dasabami Khikhvi are made?",
+          "300 to 600 bottles per vintage: 400 in 2021, 300 in 2022 and 600 in 2024."
+        ]
+      ],
+      "alts": {
+        "khikhvi-tasting": "Dasabami Khikhvi bottle and a glass of amber wine at a tasting",
+        "khikhvi-2018": "Bottle of Dasabami Khikhvi 2018 amber wine in a wine shop",
+        "shops/more-khikhvi-2019": "Dasabami Khikhvi 2019 bottle with a painted label"
+      },
+      "captions": {
+        "khikhvi-2018": "Khikhvi 2018",
+        "shops/more-khikhvi-2019": "Khikhvi 2019 · MORE Natural Wine"
+      },
+      "name": "Khikhvi",
+      "geo": "ხიხვი"
+    },
+    "tavkveri": {
+      "title": "Dasabami Tavkveri | Red Qvevri Wine from Kartli, Georgia",
+      "description": "Dasabami Tavkveri: Kartli’s native red grape from 70-year-old vines, a short time on its skins then months in qvevri. A tiny lot of 180 bottles in 2020.",
+      "lede": "Kartli’s own red grape and Dasabami’s only red: a short time on its skins, then months of rest in qvevri.",
+      "grape": [
+        "Tavkveri is an indigenous red grape of Kartli, the region around Tbilisi. It has only female flowers, so it needs other varieties growing nearby to pollinate it.",
+        "Tavkveri gives fresh, light-coloured reds and is also used for rosé. Its wines are often described with red berries and gentle tannins."
+      ],
+      "ours": [
+        "Dasabami’s Tavkveri comes from the family’s 70-year-old vines in Tamarisi. In 2020 the grapes spent 45 days on their skins and then nine months in qvevri.",
+        "Just 180 bottles were made, unfined, unfiltered and with no added SO₂. Earlier vintages were also dry reds made with skin-contact fermentation in qvevri."
+      ],
+      "facts": {
+        "vines": "About 70 years old",
+        "skins": "45 days",
+        "lot": "180 bottles (2020)",
+        "grape": "Tavkveri"
+      },
+      "earlier": "Tavkveri 2017, 2018 and 2019.",
+      "said": [],
+      "faq": [
+        [
+          "What is Dasabami Tavkveri?",
+          "A red natural wine from Tavkveri, an indigenous grape of Kartli, made by the Darsavelidze family in Tamarisi, Kvemo Kartli, Georgia, fermented in qvevri with ambient yeasts."
+        ],
+        [
+          "How is Dasabami Tavkveri made?",
+          "In 2020 the grapes spent 45 days on their skins, then nine months in qvevri, and the wine was bottled unfined, unfiltered and with no added SO₂."
+        ],
+        [
+          "How many bottles of Dasabami Tavkveri are made?",
+          "Very few: 180 bottles in 2020."
+        ],
+        [
+          "What food goes with Tavkveri?",
+          "A fresh, light red like Tavkveri suits grilled meat such as mtsvadi, mushrooms and lobio, the Georgian bean stew."
+        ]
+      ],
+      "alts": {
+        "tavkveri-2019": "Bottle of Dasabami Tavkveri 2019 red wine with the gold grape-cluster label",
+        "tavkveri-2017": "Bottle of Dasabami Tavkveri 2017 red wine on a black background",
+        "tavkveri-2018": "Dasabami Tavkveri 2018 bottle with a glass of red wine outdoors"
+      },
+      "captions": {
+        "tavkveri-2017": "Tavkveri 2017",
+        "tavkveri-2018": "Tavkveri 2018 · photo @g.vino_tbilisi"
+      },
+      "name": "Tavkveri",
+      "geo": "თავკვერი"
+    },
+    "rkatsiteli-mtsvane": {
+      "title": "Dasabami Rkatsiteli–Mtsvane | Amber Qvevri Blend from Georgia",
+      "description": "Dasabami Rkatsiteli–Mtsvane: the classic Georgian pairing, 80% Rkatsiteli and 20% Mtsvane, made as an amber natural wine in qvevri. 800 bottles in 2024.",
+      "lede": "The classic eastern Georgian pairing: 80% Rkatsiteli and 20% Mtsvane, made as an amber wine in qvevri.",
+      "grape": [
+        "Rkatsiteli brings structure and lively acidity; Mtsvane adds aromatics. The two grapes have long been grown and blended together in eastern Georgia."
+      ],
+      "ours": [
+        "The 2024 spent three months on its skins and four months in qvevri, at 12% alcohol; 800 bottles were made, unfined, unfiltered and with no added SO₂.",
+        "A 2025 Rkatsiteli–Mtsvane has also been poured at 27 Wine Cellar & Shop in Tbilisi."
+      ],
+      "facts": {
+        "vines": "About 70 years old",
+        "skins": "3 months (2024)",
+        "lot": "800 bottles (2024)",
+        "grape": "80% Rkatsiteli, 20% Mtsvane"
+      },
+      "earlier": "",
+      "said": [],
+      "faq": [
+        [
+          "What is Dasabami Rkatsiteli–Mtsvane?",
+          "An amber natural wine blending 80% Rkatsiteli and 20% Mtsvane, made by the Darsavelidze family in Tamarisi, Kvemo Kartli, Georgia, in qvevri with ambient yeasts."
+        ],
+        [
+          "How is the Rkatsiteli–Mtsvane made?",
+          "The 2024 spent three months on its skins and four months in qvevri, and was bottled unfined, unfiltered and with no added SO₂ at 12% alcohol."
+        ],
+        [
+          "How many bottles are made?",
+          "800 bottles of the 2024."
+        ]
+      ],
+      "alts": {
+        "zaza-27-cellar": "Zaza behind a row of new Dasabami bottles with painted labels at 27 Wine Cellar & Shop, Tbilisi",
+        "lineup": "A line-up of natural wines including Dasabami bottles",
+        "vineyard-canopy": "Old Dasabami vines with bunches of white grapes"
+      },
+      "captions": {
+        "lineup": "Dasabami amber wines",
+        "vineyard-canopy": "Rkatsiteli and Mtsvane grow side by side in Tamarisi"
+      },
+      "name": "Rkatsiteli–Mtsvane",
+      "geo": "რქაწითელი–მწვანე"
+    }
+  }
+}

@@ -254,6 +254,8 @@
     $('#sheet-facts').innerHTML = Object.entries(w.facts).map(([k, v]) => `<dt>${tx('labels', k, k)}</dt><dd>${tx('values', v, v)}</dd>`).join('');
     $('#sheet-ask').onclick = () => { closeSheet(); openGuide(tellMe(w)); };
     $('#sheet-mail').href = `mailto:${EMAIL}?subject=${encodeURIComponent(`Dasabami ${w.name} ${w.vintage}`)}`;
+    const page = { rkatsiteli: 'rkatsiteli', mtsvane: 'mtsvane', khikhvi: 'khikhvi', tavkveri: 'tavkveri' }[id.split('-')[0]];
+    $('#sheet-page').href = page ? `wines/${page}/` : 'wines/';
     lastFocus = document.activeElement;
     sheet.classList.add('is-open'); sheet.setAttribute('aria-hidden', 'false');
     setTimeout(() => $('.sheet-body .x').focus(), 50);

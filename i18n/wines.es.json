@@ -1,0 +1,334 @@
+{
+  "ui": {
+    "skip": "Saltar al contenido",
+    "home": "Dasabami",
+    "wines": "Vinos",
+    "all_wines": "Todos los vinos",
+    "back_home": "Volver a Dasabami",
+    "write_to_us": "Escríbenos",
+    "send_email": "Enviar un correo",
+    "copy": "Copiar dirección",
+    "copied": "Dirección de correo copiada",
+    "facts_title": "De un vistazo",
+    "grape_title": "La uva",
+    "ours_title": "Cómo lo elabora Dasabami",
+    "vintages_title": "Últimas añadas",
+    "earlier_title": "Añadas anteriores",
+    "on_skins": "Con pieles",
+    "in_qvevri": "En qvevri",
+    "alcohol": "Alcohol",
+    "bottles": "Botellas",
+    "months": "meses",
+    "days": "días",
+    "source": "Fuente: fichas técnicas de Roni Selects (importador en EE. UU.). Todos los vinos: levaduras autóctonas, fermentados y criados en qvevri, sin clarificar, sin filtrar, sin SO₂ añadido.",
+    "said_title": "Lo que se dice de él",
+    "faq_title": "Preguntas",
+    "other_title": "Los otros vinos",
+    "contact_eyebrow": "Contacto",
+    "contact_title": "Escríbenos.",
+    "contact_text": "Importadores, tiendas de vino, prensa o una pregunta sobre una botella.",
+    "f_grape": "Uva",
+    "f_style": "Estilo",
+    "f_vines": "Viñas",
+    "f_vessel": "Vasija",
+    "f_skins": "Maceración con pieles",
+    "f_lot": "Producción",
+    "vessel_value": "Qvevri, levaduras autóctonas",
+    "style_amber": "Vino ámbar",
+    "style_red": "Vino tinto",
+    "style_blend": "Coupage ámbar",
+    "more": "Más sobre el {name}",
+    "language": "Idioma",
+    "footer_line": "Vino natural y ecológico de Georgia. Dasabami Wine Cellar · Tamarisi, municipio de Marneuli, Kvemo Kartli, Georgia.",
+    "email_us": "Escríbenos",
+    "instagram": "Instagram",
+    "read": "Leer",
+    "copy_failed": "No se pudo copiar. Usa «Enviar un correo»."
+  },
+  "hub": {
+    "title": "Vinos Dasabami | Vino natural georgiano ámbar y tinto de qvevri",
+    "description": "Vinos de Dasabami: Rkatsiteli, Mtsvane, Khikhvi, Tavkveri y un coupage Rkatsiteli–Mtsvane. Vino natural georgiano, ecológico y de qvevri, de Kvemo Kartli.",
+    "eyebrow": "Vinos naturales georgianos",
+    "h1": "Los vinos.",
+    "lede": "Cuatro uvas autóctonas de una sola hectárea familiar en Tamarisi, Kvemo Kartli. Con tres se elaboran vinos ámbar, con la cuarta un tinto, y además hay un coupage de Rkatsiteli y Mtsvane. Todos fermentan en qvevri con levaduras autóctonas y se embotellan sin clarificar, sin filtrar y sin SO₂ añadido."
+  },
+  "wines": {
+    "rkatsiteli": {
+      "title": "Dasabami Rkatsiteli | Vino naranja natural de qvevri, Georgia",
+      "description": "Dasabami Rkatsiteli: vino natural ámbar de cepas de 70 años en Kvemo Kartli. Fermentado con pieles en qvevri, sin clarificar, sin filtrar, sin SO₂ añadido.",
+      "lede": "La gran uva blanca de Georgia, elaborada a la antigua: fermentada con sus pieles en qvevri hasta volverse ámbar. De las viñas de 70 años de la familia en Tamarisi.",
+      "grape": [
+        "La Rkatsiteli es una de las variedades de uva más antiguas de Georgia y la blanca más plantada del país. Su nombre suele traducirse como «tallo rojo». Conserva una acidez natural alta incluso en los años cálidos, y por eso soporta tan bien las maceraciones largas con pieles.",
+        "Fermentada con sus pieles en qvevri, la Rkatsiteli se vuelve ámbar y gana agarre gracias a los taninos de las pieles. Al Rkatsiteli ámbar se le suelen atribuir notas de albaricoque seco, membrillo, té negro y nuez."
+      ],
+      "ours": [
+        "En Dasabami, la Rkatsiteli procede de cepas de unos 70 años en Tamarisi, Kvemo Kartli. La uva fermenta con sus propias levaduras autóctonas en qvevri de barro enterrados en la tierra, entre ellos el qvevri centenario de la familia, y en las últimas añadas permanece con sus pieles de cuatro a seis meses.",
+        "Es el vino del que la familia elabora más botellas, entre unas 800 y 900 al año, y se embotella sin clarificar, sin filtrar y sin SO₂ añadido. Las últimas añadas llevan una etiqueta artística pintada."
+      ],
+      "facts": {
+        "vines": "Unos 70 años",
+        "skins": "4–6 meses",
+        "lot": "800–900 botellas",
+        "grape": "Rkatsiteli"
+      },
+      "earlier": "Rkatsiteli 2010 (cinco años en qvevri), 2012–2019 y 2021. Botellas más antiguas, como el Rkatsiteli 2014, se han servido en 27 Wine Cellar & Shop, en Tiflis.",
+      "said": [
+        {
+          "text": "this Rkatsiteli she selected for us was divine.",
+          "by": "Paul Rimple, Culinary Backstreets",
+          "url": "https://culinarybackstreets.com/stories/tbilisi/vino-underground-2",
+          "quote": true
+        },
+        {
+          "text": "El Rkatsiteli 2010, cinco años en qvevri: sedoso, de color ámbar dorado, con notas de mora ártica y espino amarillo, y magnífico con queso.",
+          "by": "Göran, reseña de la comunidad de Raisin",
+          "url": "https://www.raisin.digital/en/explore/georgia/kvemo-kartli/natural-winemakers/zaza-darsavelidze-dasabami-7403/wines/oranges/dasabami-38910/",
+          "quote": false
+        }
+      ],
+      "faq": [
+        [
+          "¿Qué es el Rkatsiteli de Dasabami?",
+          "Un vino natural ámbar (de maceración con pieles) de uva Rkatsiteli, elaborado por la familia Darsavelidze en Tamarisi, Kvemo Kartli (Georgia). Fermenta en qvevri con levaduras autóctonas y se embotella sin clarificar, sin filtrar y sin SO₂ añadido."
+        ],
+        [
+          "¿Cuánto tiempo macera con pieles el Rkatsiteli de Dasabami?",
+          "Las últimas añadas pasan de cuatro a seis meses con sus pieles en qvevri: seis meses la de 2020 y cuatro meses la de 2022."
+        ],
+        [
+          "¿Cuántas botellas se elaboran del Rkatsiteli de Dasabami?",
+          "Entre unas 800 y 900 botellas al año: 900 en 2020 y 800 en 2022."
+        ],
+        [
+          "¿Con qué maridar un Rkatsiteli ámbar?",
+          "Su agarre y su acidez van bien con la cocina georgiana, como los platos con nueces, las verduras a la brasa y el khachapuri, y con quesos curados."
+        ]
+      ],
+      "alts": {
+        "rkatsiteli-2019": "Botella de vino ámbar Dasabami Rkatsiteli 2019 con una etiqueta artística pintada",
+        "rkatsiteli-2016": "Botella de Dasabami Rkatsiteli 2016 junto a una copa de vino ámbar",
+        "lineup": "Una hilera de vinos naturales, entre ellos Dasabami Rkatsiteli 2021"
+      },
+      "captions": {
+        "rkatsiteli-2016": "Rkatsiteli 2016 · foto @alevalente91",
+        "lineup": "Rkatsiteli 2021 · foto @nika.jei"
+      },
+      "name": "Rkatsiteli",
+      "geo": "რქაწითელი"
+    },
+    "mtsvane": {
+      "title": "Dasabami Mtsvane | Vino natural ámbar de qvevri, Kvemo Kartli",
+      "description": "Dasabami Mtsvane: uva blanca aromática de Georgia en vino natural ámbar, unos seis meses con pieles en qvevri. Pequeños lotes de 360–400 botellas.",
+      "lede": "Una uva blanca aromática del este de Georgia, elaborada como vino ámbar: unos seis meses con sus pieles en qvevri, en lotes de unos pocos cientos de botellas.",
+      "grape": [
+        "Mtsvane significa «verde» en georgiano. La Mtsvane Kakhuri es una variedad blanca aromática de Kajetia que desde hace mucho se cultiva junto a la Rkatsiteli, y se ensambla con ella, en el este de Georgia.",
+        "Elaborada con sus pieles en qvevri, la Mtsvane da un vino ámbar que suele describirse como floral, con fruta de hueso, cítricos y un toque mineral."
+      ],
+      "ours": [
+        "La Mtsvane de Dasabami crece entre las viñas viejas de la familia en Tamarisi; el registro de viñedos recoge tanto Mtsvane Kakhuri como Mtsvane Goruli. Cada una de las últimas añadas pasó unos seis meses con sus pieles y después de tres a ocho meses en qvevri.",
+        "Los lotes son pequeños, de 360 a 400 botellas, y cada botella sale sin clarificar, sin filtrar y sin SO₂ añadido."
+      ],
+      "facts": {
+        "vines": "Unos 70 años",
+        "skins": "Unos 6 meses",
+        "lot": "360–400 botellas",
+        "grape": "Mtsvane"
+      },
+      "earlier": "Mtsvane 2017, un blanco ámbar, y añadas anteriores.",
+      "said": [],
+      "faq": [
+        [
+          "¿Qué es el Mtsvane de Dasabami?",
+          "Un vino natural ámbar de uva Mtsvane, elaborado por la familia Darsavelidze en Tamarisi, Kvemo Kartli (Georgia), fermentado con sus pieles en qvevri con levaduras autóctonas."
+        ],
+        [
+          "¿Cuánto tiempo macera con pieles el Mtsvane de Dasabami?",
+          "Unos seis meses, y después de tres a ocho meses en qvevri: seis meses la añada 2019, ocho la 2021 y tres la 2022."
+        ],
+        [
+          "¿Cuántas botellas se elaboran del Mtsvane de Dasabami?",
+          "De 360 a 400 botellas por añada: 360 en 2019 y en 2021, y 400 en 2022."
+        ],
+        [
+          "¿Con qué maridar un Mtsvane ámbar?",
+          "Su estilo floral y fresco va bien con platos más ligeros: pescado a la brasa, hierbas frescas, quesos frescos y pkhali, los patés georgianos de verduras y nueces."
+        ]
+      ],
+      "alts": {
+        "mtsvane-2017": "Botella de vino ámbar Dasabami Mtsvane 2017 sobre fondo blanco",
+        "mtsvane-2017-glasses": "Dos copas de Mtsvane 2017 ámbar junto a la botella, sobre un tocón",
+        "vineyard-canopy": "Viejas cepas de Dasabami con racimos de uva blanca bajo un cielo azul"
+      },
+      "captions": {
+        "mtsvane-2017-glasses": "Mtsvane 2017 · foto @olaf.schindler",
+        "vineyard-canopy": "Uva blanca en las viejas cepas de Tamarisi"
+      },
+      "name": "Mtsvane",
+      "geo": "მწვანე"
+    },
+    "khikhvi": {
+      "title": "Dasabami Khikhvi | Vino ámbar de qvevri de una rara uva georgiana",
+      "description": "Dasabami Khikhvi: rara uva blanca georgiana en vino natural de ámbar intenso, de cuatro a doce meses con pieles en qvevri. Pequeños lotes de Kvemo Kartli.",
+      "lede": "Una rara uva blanca de Kajetia, elaborada como un vino de ámbar intenso. Plantada en Dasabami hacia 2009, da el vino más potente de la familia.",
+      "grape": [
+        "La Khikhvi es una rara uva blanca georgiana de Kajetia. Estuvo a punto de desaparecer en la época soviética, cuando los viñedos se replantaron con variedades más productivas, y han sido los pequeños viticultores quienes la han recuperado.",
+        "La Khikhvi alcanza niveles altos de azúcar al madurar, por lo que sus vinos pueden ser amplios y potentes. Se suele describir como aromática, con miel, fruta amarilla y especias."
+      ],
+      "ours": [
+        "En Dasabami, la Khikhvi es la plantación más joven: en 2021 las cepas tenían unos 12 años. La maceración con pieles ha ido de cuatro meses a un año entero; el Khikhvi 2021 pasó doce meses con sus pieles.",
+        "Las últimas añadas alcanzan un 14,75–15% de alcohol, en lotes de 300 a 600 botellas, sin clarificar, sin filtrar y sin SO₂ añadido."
+      ],
+      "facts": {
+        "vines": "Plantadas hacia 2009",
+        "skins": "4–12 meses",
+        "lot": "300–600 botellas",
+        "grape": "Khikhvi"
+      },
+      "earlier": "Khikhvi 2016 (siete meses con sus pieles), 2018 y 2019.",
+      "said": [
+        {
+          "text": "La tienda de vino natural de Hamburgo clasificó el Khikhvi 2018 como enérgico, vibrante y profundo.",
+          "by": "Skin Contact, Hamburg",
+          "url": "https://web.archive.org/web/20250427201607/https://skincontact.com/wines/dasabami/khikhvi-2018/?body=medium&style=deep&type=orange",
+          "quote": false
+        },
+        {
+          "text": "El 2016, siete meses con sus pieles y catado antes incluso de llevar etiqueta: un gran vino.",
+          "by": "Reseña de la comunidad de Raisin",
+          "url": "https://www.raisin.digital/en/explore/georgia/kvemo-kartli/natural-winemakers/zaza-darsavelidze-dasabami-7403/wines/oranges/khikhvi-18832/",
+          "quote": false
+        },
+        {
+          "text": "El vino de Dasabami mejor valorado en Vivino, con un 4,1.",
+          "by": "Valoraciones de la comunidad de Vivino",
+          "url": "https://www.vivino.com/en/wineries/dasabami",
+          "quote": false
+        }
+      ],
+      "faq": [
+        [
+          "¿Qué es el Khikhvi de Dasabami?",
+          "Un vino natural ámbar de Khikhvi, una rara uva blanca de Kajetia, elaborado por la familia Darsavelidze en Tamarisi, Kvemo Kartli (Georgia), fermentado con sus pieles en qvevri con levaduras autóctonas."
+        ],
+        [
+          "¿Por qué el Khikhvi de Dasabami tiene tanta graduación?",
+          "La Khikhvi alcanza niveles altos de azúcar al madurar. Las últimas añadas tienen un 14,75% (2024) y un 15% (2022) de alcohol."
+        ],
+        [
+          "¿Cuánto tiempo macera con pieles el Khikhvi de Dasabami?",
+          "De cuatro a doce meses: cuatro meses en 2022 y 2024, y un año entero en 2021."
+        ],
+        [
+          "¿Cuántas botellas se elaboran del Khikhvi de Dasabami?",
+          "De 300 a 600 botellas por añada: 400 en 2021, 300 en 2022 y 600 en 2024."
+        ]
+      ],
+      "alts": {
+        "khikhvi-tasting": "Botella de Dasabami Khikhvi y una copa de vino ámbar en una cata",
+        "khikhvi-2018": "Botella de vino ámbar Dasabami Khikhvi 2018 en una tienda de vinos",
+        "shops/more-khikhvi-2019": "Botella de Dasabami Khikhvi 2019 con etiqueta pintada"
+      },
+      "captions": {
+        "khikhvi-2018": "Khikhvi 2018",
+        "shops/more-khikhvi-2019": "Khikhvi 2019 · MORE Natural Wine"
+      },
+      "name": "Khikhvi",
+      "geo": "ხიხვი"
+    },
+    "tavkveri": {
+      "title": "Dasabami Tavkveri | Vino tinto natural de qvevri, Kartli, Georgia",
+      "description": "Dasabami Tavkveri: tinto natural de la uva autóctona de Kartli, de cepas de 70 años; maceración corta con pieles y meses en qvevri. Solo 180 botellas en 2020.",
+      "lede": "La uva tinta propia de Kartli y el único tinto de Dasabami: una maceración corta con pieles y después meses de reposo en qvevri.",
+      "grape": [
+        "La Tavkveri es una uva tinta autóctona de Kartli, la región que rodea Tiflis. Solo tiene flores femeninas, así que necesita otras variedades plantadas cerca para polinizarse.",
+        "La Tavkveri da tintos frescos y de color claro, y también se usa para rosados. Sus vinos suelen describirse con notas de frutos rojos y taninos suaves."
+      ],
+      "ours": [
+        "La Tavkveri de Dasabami procede de las viñas de 70 años de la familia en Tamarisi. En 2020 la uva pasó 45 días con sus pieles y después nueve meses en qvevri.",
+        "Solo se elaboraron 180 botellas, sin clarificar, sin filtrar y sin SO₂ añadido. Las añadas anteriores también fueron tintos secos elaborados con fermentación con pieles en qvevri."
+      ],
+      "facts": {
+        "vines": "Unos 70 años",
+        "skins": "45 días",
+        "lot": "180 botellas (2020)",
+        "grape": "Tavkveri"
+      },
+      "earlier": "Tavkveri 2017, 2018 y 2019.",
+      "said": [],
+      "faq": [
+        [
+          "¿Qué es el Tavkveri de Dasabami?",
+          "Un vino tinto natural de Tavkveri, una uva autóctona de Kartli, elaborado por la familia Darsavelidze en Tamarisi, Kvemo Kartli (Georgia), fermentado en qvevri con levaduras autóctonas."
+        ],
+        [
+          "¿Cómo se elabora el Tavkveri de Dasabami?",
+          "En 2020 la uva pasó 45 días con sus pieles y después nueve meses en qvevri, y el vino se embotelló sin clarificar, sin filtrar y sin SO₂ añadido."
+        ],
+        [
+          "¿Cuántas botellas se elaboran del Tavkveri de Dasabami?",
+          "Muy pocas: 180 botellas en 2020."
+        ],
+        [
+          "¿Con qué maridar el Tavkveri?",
+          "Un tinto fresco y ligero como el Tavkveri va bien con carne a la brasa, como el mtsvadi, con setas y con lobio, el guiso georgiano de alubias."
+        ]
+      ],
+      "alts": {
+        "tavkveri-2019": "Botella de vino tinto Dasabami Tavkveri 2019 con la etiqueta del racimo dorado",
+        "tavkveri-2017": "Botella de vino tinto Dasabami Tavkveri 2017 sobre fondo negro",
+        "tavkveri-2018": "Botella de Dasabami Tavkveri 2018 con una copa de vino tinto al aire libre"
+      },
+      "captions": {
+        "tavkveri-2017": "Tavkveri 2017",
+        "tavkveri-2018": "Tavkveri 2018 · foto @g.vino_tbilisi"
+      },
+      "name": "Tavkveri",
+      "geo": "თავკვერი"
+    },
+    "rkatsiteli-mtsvane": {
+      "title": "Dasabami Rkatsiteli–Mtsvane | Coupage ámbar de qvevri, Georgia",
+      "description": "Dasabami Rkatsiteli–Mtsvane: la pareja clásica georgiana, 80% Rkatsiteli y 20% Mtsvane, en vino natural ámbar de qvevri. 800 botellas en 2024.",
+      "lede": "La pareja clásica del este de Georgia: un 80% de Rkatsiteli y un 20% de Mtsvane, elaborados como vino ámbar en qvevri.",
+      "grape": [
+        "La Rkatsiteli aporta estructura y una acidez viva; la Mtsvane suma aromas. Las dos uvas se cultivan y se ensamblan juntas desde hace mucho en el este de Georgia."
+      ],
+      "ours": [
+        "El 2024 pasó tres meses con sus pieles y cuatro meses en qvevri, con un 12% de alcohol; se elaboraron 800 botellas, sin clarificar, sin filtrar y sin SO₂ añadido.",
+        "También se ha servido un Rkatsiteli–Mtsvane 2025 en 27 Wine Cellar & Shop, en Tiflis."
+      ],
+      "facts": {
+        "vines": "Unos 70 años",
+        "skins": "3 meses (2024)",
+        "lot": "800 botellas (2024)",
+        "grape": "80% Rkatsiteli, 20% Mtsvane"
+      },
+      "earlier": "",
+      "said": [],
+      "faq": [
+        [
+          "¿Qué es el Rkatsiteli–Mtsvane de Dasabami?",
+          "Un vino natural ámbar que ensambla un 80% de Rkatsiteli y un 20% de Mtsvane, elaborado por la familia Darsavelidze en Tamarisi, Kvemo Kartli (Georgia), en qvevri y con levaduras autóctonas."
+        ],
+        [
+          "¿Cómo se elabora el Rkatsiteli–Mtsvane?",
+          "El 2024 pasó tres meses con sus pieles y cuatro meses en qvevri, y se embotelló sin clarificar, sin filtrar y sin SO₂ añadido, con un 12% de alcohol."
+        ],
+        [
+          "¿Cuántas botellas se elaboran?",
+          "800 botellas de la añada 2024."
+        ]
+      ],
+      "alts": {
+        "zaza-27-cellar": "Zaza detrás de una fila de botellas nuevas de Dasabami con etiquetas pintadas en 27 Wine Cellar & Shop, Tiflis",
+        "lineup": "Una hilera de vinos naturales, entre ellos botellas de Dasabami",
+        "vineyard-canopy": "Viejas cepas de Dasabami con racimos de uva blanca"
+      },
+      "captions": {
+        "lineup": "Vinos ámbar de Dasabami",
+        "vineyard-canopy": "La Rkatsiteli y la Mtsvane crecen juntas en Tamarisi"
+      },
+      "name": "Rkatsiteli–Mtsvane",
+      "geo": "რქაწითელი–მწვანე"
+    }
+  }
+}
